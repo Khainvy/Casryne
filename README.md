@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nihiluxxy - Platform Belajar Super SMA, TKA & UTBK SNBT 2026 (Full Expanded Edition)</title>
+    <title>Nihiluxxy - Platform Belajar Super SMA, TKA & UTBK SNBT 2026 (12 Bab Master Edition)</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -100,10 +100,10 @@
 
     <!-- Top Navigation Banner -->
     <div class="bg-gradient-to-r from-purple-900 via-indigo-900 to-slate-900 text-xs py-1.5 px-4 text-center font-medium border-b border-purple-500/20 text-purple-200 flex justify-between items-center sticky top-0 z-[60]">
-        <span class="hidden sm:inline">⚡ Edisi Terintegrasi Google Gemini AI & Bank Materi Super Lengkap SMA UTBK 2026</span>
+        <span class="hidden sm:inline">⚡ Edisi Master Academic (12 Bab Per Mapel • 96 Modul Terperinci) UTBK SNBT 2026</span>
         <span class="mx-auto sm:mx-0">🎉 Powered by Gemini 2.5 Flash • Realtime AI Tutor & Flashcard Rumus</span>
         <div class="hidden md:flex gap-4 text-[11px] font-semibold text-purple-300">
-            <span class="bg-purple-800/50 px-2 py-0.5 rounded-full border border-purple-400/30">v6.5 Full Content Edition</span>
+            <span class="bg-purple-800/50 px-2 py-0.5 rounded-full border border-purple-400/30">v7.0 12 Bab Edition</span>
             <span>•</span>
             <span id="live-clock" class="font-mono">--:--:-- WIB</span>
         </div>
@@ -130,7 +130,7 @@
             <div class="hidden lg:flex items-center flex-1 max-w-md mx-6">
                 <div class="relative w-full">
                     <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
-                    <input type="text" id="global-search" oninput="handleGlobalSearch(this.value)" placeholder="Cari konsep (misal: Eksponen, Newton, Stoikiometri)..." class="w-full bg-slate-900/90 border border-slate-700/80 rounded-2xl pl-10 pr-4 py-2 text-xs text-slate-200 focus:outline-none focus:border-purple-500 transition shadow-inner">
+                    <input type="text" id="global-search" oninput="handleGlobalSearch(this.value)" placeholder="Cari konsep (misal: Limit, Carnot, Titrasi, Keynes)..." class="w-full bg-slate-900/90 border border-slate-700/80 rounded-2xl pl-10 pr-4 py-2 text-xs text-slate-200 focus:outline-none focus:border-purple-500 transition shadow-inner">
                     <div id="search-results-popover" class="hidden absolute left-0 right-0 top-12 bg-slate-900 border border-slate-700 rounded-2xl shadow-2xl p-2 z-50 max-h-80 overflow-y-auto custom-scrollbar"></div>
                 </div>
             </div>
@@ -490,7 +490,7 @@
             addXP(5, 'Diskusi dengan Gemini AI');
         }
 
-        // Database Engine (Lengkap & Ter-ekspansi Semua Mata Pelajaran)
+        // Database Engine (Master Edition - Exactly 12 Bab Per Mapel)
         const db = {
             mapel: [
                 { id: 'mat', nama: 'Matematika Wajib & Lanjut', icon: 'calculator', color: 'from-blue-600 to-cyan-500', k13: 'Kelas 10-12 IPA/IPS', merdeka: 'Fase E & F (Wajib & Tingkat Lanjut)' },
@@ -581,15 +581,15 @@
             materiDetails: {
                 'mat': [
                     {
-                        title: '1. Eksponen, Bentuk Akar & Logaritma (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Eksponen, Bentuk Akar & Logaritma (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Pengertian & Konsep Dasar:</strong> Eksponen adalah bentuk perkalian berulang dari suatu bilangan dengan dirinya sendiri. Logaritma adalah invers dari eksponensial (aⁿ = b ⇔ ᵃlog b = n). Digunakan dalam mengukur skala Richter gempa, pH larutan, dan bunga majemuk.',
+                        summary: '<strong>Pengertian & Konsep Dasar:</strong> Eksponen adalah bentuk perkalian berulang dari suatu bilangan dengan dirinya sendiri. Logaritma adalah invers dari eksponensial (aⁿ = b ⇔ ᵃlog b = n).',
                         visual: 'ᵃlog(b·c) = ᵃlog b + ᵃlog c | ᵃlog(b/c) = ᵃlog b - ᵃlog c | ᵃlog bⁿ = n · ᵃlog b',
                         tips: '<strong>Langkah Cepat Cerdas:</strong> Jika bertemu persamaan a^(f(x)) = a^(g(x)), samakan bilangan pokoknya terlebih dahulu, lalu f(x) = g(x).',
                         contohSoal: 'Jika ᵃlog b + ᵃlog b² = 12, tentukan nilai ᵃlog(a·b)!<br><strong>Jawaban Terperinci:</strong> ᵃlog b + 2 ᵃlog b = 12 ⇒ 3 ᵃlog b = 12 ⇒ ᵃlog b = 4. Maka ᵃlog(a·b) = ᵃlog a + ᵃlog b = 1 + 4 = 5.'
                     },
                     {
-                        title: '2. Persamaan Kuadrat & Fungsi Kuadrat (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Persamaan Kuadrat & Fungsi Kuadrat (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: '<strong>Pengertian & Konsep Dasar:</strong> Persamaan kuadrat ax² + bx + c = 0. Grafiknya berupa parabola. Diskriminan D = b² - 4ac memprediksi jumlah dan sifat akar real.',
                         visual: 'Akar Vieta: x₁ + x₂ = -b/a | x₁·x₂ = c/a | Puncak Parabola: (-b / 2a , -D / 4a)',
@@ -597,23 +597,39 @@
                         contohSoal: 'x² - (k + 2)x + 16 = 0 memiliki dua akar kembar positif. Tentukan k!<br><strong>Jawaban Terperinci:</strong> D = 0 ⇒ (k+2)² - 64 = 0 ⇒ k+2 = ±8. Karena akar positif, x₁+x₂ = k+2 > 0 ⇒ k = 6.'
                     },
                     {
-                        title: '3. Sistem Persamaan & Pertidaksamaan Linear (Kelas 10 / Fase E)',
+                        title: 'Bab 3. Sistem Persamaan & Pertidaksamaan Linear (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'SPLTV terdiri atas 3 variabel. Digunakan untuk pemodelan linier dan optimasi keuntungan pada Program Linier.',
+                        summary: '<strong>Pengertian & Konsep Dasar:</strong> SPLTV terdiri dari 3 variabel. Digunakan untuk pemodelan linier dan optimasi fungsi sasaran Z = ax + by pada Program Linier.',
                         visual: 'Fungsi Sasaran: Z = ax + by | Garis Selidik: ax + by = k',
                         tips: 'Gunakan titik acuan (0,0) untuk menentukan daerah arsiran pertidaksamaan ax + by ≤ c.',
                         contohSoal: 'Maksimum f(x,y) = 3x + 4y pada x + y ≤ 5, x ≥ 0, y ≥ 0.<br><strong>Jawaban:</strong> Nilai maksimum di titik (0,5) = 3(0) + 4(5) = 20.'
                     },
                     {
-                        title: '4. Matriks & Operasi Matriks (Kelas 11 / Fase F)',
+                        title: 'Bab 4. Trigonometri Dasar & Identitas Trigonometri (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Matriks adalah susunan bilangan dalam baris dan kolom. Perkalian A × B mensyaratkan kolom A = baris B.',
+                        summary: 'Trigonometri mengukur perbandingan sisi segitiga siku-siku: sin (depan/miring), cos (samping/miring), tan (depan/samping). Aturan Sinus dan Cosinus berlaku pada segitiga sembarang.',
+                        visual: 'sin²x + cos²x = 1 | Aturan Cosinus: a² = b² + c² - 2bc cos A',
+                        tips: 'Identitas utama sin²θ + cos²θ = 1 sangat ampuh menyederhanakan persamaan trigonometri kompleks.',
+                        contohSoal: 'Segitiga ABC dengan b=4, c=6, sudut A=60°. Hitung panjang a!<br><strong>Jawaban:</strong> a² = 16 + 36 - 2(4)(6)(0.5) = 52 - 24 = 28 ⇒ a = √28 = 2√7.'
+                    },
+                    {
+                        title: 'Bab 5. Fungsi Komposisi & Fungsi Invers (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Fungsi komposisi (f ∘ g)(x) = f(g(x)). Fungsi invers f⁻¹(x) membalikkan domain dan kodomain. Jika f(x) = (ax+b)/(cx+d), maka f⁻¹(x) = (-dx+b)/(cx-a).',
+                        visual: '(f ∘ g)(x) = f(g(x)) | Invers Rasional: f⁻¹(x) = (-dx + b) / (cx - a)',
+                        tips: 'Tukar posisi koefisien a dan d serta ubah tandanya (menjadi -d dan -a) untuk invers cepat!',
+                        contohSoal: 'f(x) = (2x + 3) / (x - 4). Tentukan f⁻¹(x)!<br><strong>Jawaban:</strong> f⁻¹(x) = (4x + 3) / (x - 2).'
+                    },
+                    {
+                        title: 'Bab 6. Matriks & Operasi Matriks (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Matriks adalah susunan bilangan dalam baris dan kolom. Perkalian A × B mensyaratkan kolom A = baris B. Invers matriks A⁻¹ = (1/det A) × Adjoin A.',
                         visual: 'Invers Matriks 2x2: A⁻¹ = (1 / det A) · [[d, -b], [-c, a]] | det A = ad - bc',
                         tips: 'Determinan invers matriks det(A⁻¹) = 1 / det(A). Tidak perlu cari bentuk inversnya!',
                         contohSoal: 'A = [[2, 1], [4, 3]]. Tentukan det(A⁻¹)!<br><strong>Jawaban:</strong> det(A) = 6 - 4 = 2. Maka det(A⁻¹) = 1/2.'
                     },
                     {
-                        title: '5. Barisan & Deret Aritmetika dan Geometri (Kelas 11 / Fase F)',
+                        title: 'Bab 7. Barisan & Deret Aritmetika dan Geometri (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Aritmetika memiliki beda (b) tetap. Geometri memiliki rasio (r) tetap. Deret geometri tak hingga konvergen mensyaratkan -1 < r < 1.',
                         visual: 'Un (Arit) = a + (n-1)b | Un (Geo) = a·rⁿ⁻¹ | S_∞ = a / (1 - r)',
@@ -621,17 +637,49 @@
                         contohSoal: 'Bola dijatuhkan dari 12 m dan memantul 2/3 kali tinggi sebelumnya. Hitung panjang lintasan total!<br><strong>Jawaban:</strong> 12 × ((3+2)/(3-2)) = 12 × 5 = 60 meter.'
                     },
                     {
-                        title: '6. Turunan Fungsi Aljabar & Aplikasi (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 8. Limit Fungsi Aljabar & Trigonometri (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Limit menggambarkan nilai dekatan fungsi. Untuk bentuk tak tentu 0/0 pada limit aljabar dapat digunakan metode Faktualisasi atau Teorema L\'Hopital (turunan pembilang/penyebut).',
+                        visual: 'L\'Hopital: lim [f(x)/g(x)] = lim [f\'(x)/g\'(x)] | Trigonometri: lim (sin ax / bx) = a/b',
+                        tips: 'Gunakan aturan L\'Hopital untuk menyelesaikan bentuk 0/0 tanpa perlu memfaktorkan!',
+                        contohSoal: 'Hitung lim (x→2) (x² - 4) / (x - 2)!<br><strong>Jawaban:</strong> Turunan pembilang 2x, penyebut 1 ⇒ 2(2)/1 = 4.'
+                    },
+                    {
+                        title: 'Bab 9. Turunan Fungsi Aljabar & Aplikasi (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Turunan f\'(x) mengukur laju perubahan instan. Aplikasi: menentukan garis singgung, interval naik/turun, dan titik stasioner (f\'(x) = 0).',
                         visual: 'f(x) = a xⁿ ⇒ f\'(x) = a·n xⁿ⁻¹ | Stasioner: f\'(x) = 0',
                         tips: 'Keuntungan maksimum pada fungsi ekonomi selalu tercapai saat turunan pertamanya sama dengan NOL.',
                         contohSoal: 'Tentukan x stasioner dari f(x) = x³ - 3x² - 9x + 5!<br><strong>Jawaban:</strong> f\'(x) = 3x² - 6x - 9 = 0 ⇒ x² - 2x - 3 = 0 ⇒ x = 3 atau x = -1.'
+                    },
+                    {
+                        title: 'Bab 10. Integral Tentu & Tak Tentu (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Integral adalah kebalikan dari turunan (anti-turunan). Integral tentu digunakan untuk menghitung luas daerah di bawah kurva dan volume benda putar.',
+                        visual: '∫ xⁿ dx = (1 / (n+1)) xⁿ⁺¹ + C | Luas Kurva: L = ∫ [f(x) - g(x)] dx',
+                        tips: 'Luas daerah antara parabola dan garis: L = (D √D) / (6 a²). Sangat cepat untuk UTBK!',
+                        contohSoal: 'Hitung Luas daerah dipotong y = x² dan y = 4x!<br><strong>Jawaban:</strong> x² - 4x = 0 ⇒ a=1, b=-4, c=0 ⇒ D=16. Luas = (16×4)/(6×1) = 64/6 = 10,67.'
+                    },
+                    {
+                        title: 'Bab 11. Geometri Dimensi Tiga (Jarak & Sudut) (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Kedudukan titik, garis, dan bidang dalam ruang 3D. Jarak titik ke garis menggunakan proyeksi tegak lurus dan rumus luas segitiga.',
+                        visual: 'Diagonal Sisi Kubus = s√2 | Diagonal Ruang Kubus = s√3',
+                        tips: 'Jarak titik sudut kubus ke bidang diagonal di seberangnya selalu (s/3)√6.',
+                        contohSoal: 'Kubus ABCD.EFGH panjang rusuk 6 cm. Hitung jarak titik A ke C!<br><strong>Jawaban:</strong> Diagonal sisi = 6√2 cm.'
+                    },
+                    {
+                        title: 'Bab 12. Peluang, Kombinatorika & Statistika (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Permutasi P(n,r) memperhatikan urutan; Kombinasi C(n,r) tidak memperhatikan urutan. Statistika mencakup Rataan (Mean), Modus, Median, dan Simpangan Baku.',
+                        visual: 'P(n,r) = n! / (n-r)! | C(n,r) = n! / [r! (n-r)!] | P(A) = n(A) / n(S)',
+                        tips: 'Memilih tim/panitia tanpa jabatan menggunakan Kombinasi; menyusun posisi/juara menggunakan Permutasi.',
+                        contohSoal: 'Berapa cara memilih 3 orang pengurus dari 5 calon?<br><strong>Jawaban:</strong> C(5,3) = 5! / (3! × 2!) = (5 × 4) / 2 = 10 cara.'
                     }
                 ],
                 'fis': [
                     {
-                        title: '1. Besaran, Pengukuran & Vektor (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Besaran, Pengukuran & Vektor (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Pengukuran membandingkan besaran dengan standar SI. Alat ukur: Jangka Sorong (ketelitian 0,1 mm) dan Mikrometer Sekrup (ketelitian 0,01 mm).',
                         visual: 'Resultan Dua Vektor Tegak Lurus: R = √(F₁² + F₂²)',
@@ -639,7 +687,7 @@
                         contohSoal: 'Skala utama 4,5 mm dan nonius 25 berhimpit pada mikrometer. Berapa tebalnya?<br><strong>Jawaban:</strong> 4,5 + (25 × 0,01) = 4,75 mm.'
                     },
                     {
-                        title: '2. Kinematika Gerak Lurus & Parabola (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Kinematika Gerak Lurus & Parabola (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'GLB memiliki v konstan. GLBB memiliki percepatan a konstan. Gerak parabola memadukan GLB sumbu-X dan GLBB sumbu-Y.',
                         visual: 'GLBB: vₜ = v₀ + a·t | s = v₀t + ½at² | vₜ² = v₀² + 2as',
@@ -647,7 +695,7 @@
                         contohSoal: 'Dilempar vertikal ke atas v₀ = 20 m/s (g = 10 m/s²). Hitung h maks!<br><strong>Jawaban:</strong> vₜ² = v₀² - 2gh ⇒ 0 = 400 - 20h ⇒ h = 20 m.'
                     },
                     {
-                        title: '3. Dinamika Gerak & Hukum Newton (Kelas 10 / Fase E)',
+                        title: 'Bab 3. Dinamika Gerak & Hukum Newton (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Hukum I Newton (Inersia): ΣF = 0. Hukum II Newton: ΣF = m·a. Hukum III Newton: F_aksi = -F_reaksi.',
                         visual: 'ΣF = m · a | Gaya Gesek: f_g = μ · N | Bidang Miring: F = m·g sin θ',
@@ -655,7 +703,7 @@
                         contohSoal: 'Balok 4 kg ditarik gaya 20 N di lantai licin. Hitung percepatan!<br><strong>Jawaban:</strong> a = F/m = 20/4 = 5 m/s².'
                     },
                     {
-                        title: '4. Usaha, Energi & Kekekalan Energi (Kelas 11 / Fase F)',
+                        title: 'Bab 4. Usaha, Energi & Kekekalan Energi (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Usaha W = F · s cos θ. Energi Mekanik EM = EP + EK bernilai konstan jika tidak ada gaya gesekan luar.',
                         visual: 'EM = EP + EK | EP = m·g·h | EK = ½ m v²',
@@ -663,7 +711,39 @@
                         contohSoal: 'Benda 2 kg jatuh bebas dari 10 m (g=10). Hitung EK saat di ketinggian 2 m!<br><strong>Jawaban:</strong> EK₂ = EP₁ - EP₂ = 2(10)(10) - 2(10)(2) = 200 - 40 = 160 J.'
                     },
                     {
-                        title: '5. Gelombang Bunyi & Efek Doppler (Kelas 11 / Fase F)',
+                        title: 'Bab 5. Momentum, Impuls & Tumbukan (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Impuls I = F · Δt adalah perubahan momentum Δp = m(v₂ - v₁). Hukum Kekekalan Momentum berlaku pada semua jenis tumbukan.',
+                        visual: 'I = Δp = m(v₂ - v₁) | m₁v₁ + m₂v₂ = m₁v₁\' + m₂v₂\'',
+                        tips: 'Tumbukan lenting sempurna memiliki koefisien restitusi e = 1; tidak lenting sama sekali e = 0 (benda menyatu).',
+                        contohSoal: 'Bola 1 kg v=10 m/s menumbuk dinding dan memantul v=-8 m/s. Hitung Impuls!<br><strong>Jawaban:</strong> I = 1 × (-8 - 10) = -18 Ns (arah berlawanan).'
+                    },
+                    {
+                        title: 'Bab 6. Dinamika Rotasi & Kesetimbangan Benda Tegar (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Momen Gaya (Torsi) τ = F · r sin θ menyebabkan percepatan sudut. Momen Inersia I = k m r² mengukur kelembaman rotasi.',
+                        visual: 'τ = I · α | Momen Inersia Silinder Pejal: I = ½ m R²',
+                        tips: 'Syarat kesetimbangan benda tegar adalah ΣF = 0 dan Στ = 0 di sembarang titik acuan.',
+                        contohSoal: 'Batang homogen diputar di pusat I = 1/12 mL². Jika diputar di ujungnya, berapa I?<br><strong>Jawaban:</strong> Gunakan sumbu sejajar ⇒ I_ujung = 1/3 m L².'
+                    },
+                    {
+                        title: 'Bab 7. Fluida Statis & Dinamis (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Fluida Statis: Tekanan Hidrostatis P = ρ g h dan Hukum Archimedes F_a = ρ_f V_bt g. Fluida Dinamis: Persamaan Kontinuitas dan Hukum Bernoulli.',
+                        visual: 'P_h = ρ · g · h | Archimedes: F_a = ρ_f · V_bt · g | Kontinuitas: A₁ v₁ = A₂ v₂',
+                        tips: 'Debit aliran Q = A · v bernilai konstan di sepanjang pipa tanpa bocoran.',
+                        contohSoal: 'Pipa jari-jari R₁=2cm v₁=3 m/s menyempit ke R₂=1cm. Hitung v₂!<br><strong>Jawaban:</strong> A₁v₁ = A₂v₂ ⇒ (π·4)·3 = (π·1)·v₂ ⇒ v₂ = 12 m/s.'
+                    },
+                    {
+                        title: 'Bab 8. Termodinamika & Teori Kinetik Gas (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Gas Ideal: P V = n R T. Hukum I Termodinamika: Q = ΔU + W. Mesin Carnot adalah mesin kalor ideal dengan efisiensi maksimum η = (1 - T₂/T₁).',
+                        visual: 'P V = n R T | Efisiensi Carnot: η = (1 - T₂ / T₁) × 100%',
+                        tips: 'Suhu pada rumus Termodinamika WAJIB menggunakan satuan Kelvin (K = °C + 273).',
+                        contohSoal: 'Mesin Carnot bekerja antara 600 K dan 300 K. Hitung efisiensinya!<br><strong>Jawaban:</strong> η = (1 - 300/600) × 100% = 50%.'
+                    },
+                    {
+                        title: 'Bab 9. Gelombang Bunyi & Efek Doppler (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Gelombang bunyi adalah gelombang longitudinal. Efek Doppler menjelaskan perubahan frekuensi akibat gerak relatif sumber dan pendengar.',
                         visual: 'Efek Doppler: f_p = [(v ± v_p) / (v ± v_s)] · f_s',
@@ -671,17 +751,33 @@
                         contohSoal: 'Ambulans v_s = 20 m/s mendekati pengamat diam dengan sirine 640 Hz (v=340 m/s). Hitung f_p!<br><strong>Jawaban:</strong> f_p = (340 / (340 - 20)) × 640 = (340 / 320) × 640 = 680 Hz.'
                     },
                     {
-                        title: '6. Listrik Dinamis & Hukum Kirchhoff (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 10. Listrik Dinamis & Hukum Kirchhoff (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Arus listrik I = Q/t. Hukum Ohm V = I·R. Hukum Kirchhoff I (arus masuk = keluar) & Kirchhoff II (ΣE + ΣI·R = 0 pada loop).',
                         visual: 'V = I · R | Seri: R_total = R₁ + R₂ | Paralel: 1/R_total = 1/R₁ + 1/R₂',
                         tips: 'Hambatan sejajar/paralel identik R terpasang n buah memiliki R_total = R / n.',
                         contohSoal: 'Dua hambatan 6 Ohm dipasang paralel, lalu diseri dengan hambatan 3 Ohm. Hitung R total!<br><strong>Jawaban:</strong> R_paralel = 6/2 = 3 Ohm. R_total = 3 + 3 = 6 Ohm.'
+                    },
+                    {
+                        title: 'Bab 11. Listrik Statis & Kapasitor (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Gaya Coulomb F = k q₁q₂ / r². Kuat Medan Listrik E = k q / r². Kapasitas Kapasitor C = Q / V = ε₀ A / d.',
+                        visual: 'F = k · (q₁ q₂ / r²) | Medan Listrik: E = F / q | Energi Kapasitor: W = ½ C V²',
+                        tips: 'Gaya Coulomb berbanding terbalik dengan kuadrat jarak (1/r²). Jika jarak diperdua, gaya jadi ¼ kali.',
+                        contohSoal: 'Dua muatan terpisah r memiliki gaya F. Jika jarak diubah jadi 2r, berapakah gayanya?<br><strong>Jawaban:</strong> F\' = F / (2)² = ¼ F.'
+                    },
+                    {
+                        title: 'Bab 12. Induksi Elektromagnetik & Arus AC (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Hukum Faraday: GGL Induksi ε = -N (ΔΦ / Δt). Transformator mengubah tegangan AC berdasarkan rasio lilitan Vp/Vs = Np/Ns = Is/Ip.',
+                        visual: 'GGL Induksi: ε = -N (ΔΦ / Δt) | Trafo: V_p / V_s = N_p / N_s',
+                        tips: 'Transformator Step-Up menaikkan tegangan (Ns > Np); Step-Down menurunkan tegangan (Ns < Np).',
+                        contohSoal: 'Trafo Np=1000, Ns=200 dihubungkan tegangan primer 220V. Hitung V_s!<br><strong>Jawaban:</strong> V_s = (200 / 1000) × 220 = 44 Volt.'
                     }
                 ],
                 'kim': [
                     {
-                        title: '1. Struktur Atom & Konfigurasi Elektron (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Struktur Atom & Konfigurasi Elektron (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Atom terdiri dari proton, neutron, dan elektron. Posisi elektron ditentukan oleh 4 bilangan kuantum: utama (n), azimut (l), magnetik (m), dan spin (s).',
                         visual: 'Konfigurasi: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ | l: s=0, p=1, d=2, f=3',
@@ -689,7 +785,7 @@
                         contohSoal: 'Tentukan 4 bilangan kuantum elektron terakhir ₁₁Na (1s² 2s² 2p⁶ 3s¹)!<br><strong>Jawaban:</strong> n=3, l=0, m=0, s=+½.'
                     },
                     {
-                        title: '2. Ikatan Kimia & Bentuk Molekul (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Ikatan Kimia & Bentuk Molekul (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Ikatan Ionik (serah terima elektron) vs Ikatan Kovalen (pemakaian bersama). Teori VSEPR menentukan bentuk molekul berdasarkan PEI dan PEB.',
                         visual: 'AX₂ (Linear) | AX₃ (Trigonal Planar) | AX₄ (Tetrahedral) | AX₃E (Piramida Trigonal)',
@@ -697,7 +793,7 @@
                         contohSoal: 'Bentuk molekul CH₄ (C=6, H=1) menurut VSEPR adalah...<br><strong>Jawaban:</strong> PEI=4, PEB=0 ⇒ Tipe AX₄ (Tetrahedral).'
                     },
                     {
-                        title: '3. Stoikiometri & Konsep Mol (Kelas 10 / Fase E)',
+                        title: 'Bab 3. Stoikiometri & Konsep Mol (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Mol adalah satuan jumlah zat. 1 mol = 6,02×10²³ partikel. Massa = mol × Mr. Volume gas STP (0°C, 1 atm) = mol × 22,4 L.',
                         visual: 'n = massa / Mr | n = V / 22.4 (STP) | Molaritas M = n / V(L)',
@@ -705,7 +801,15 @@
                         contohSoal: 'Hitung massa 0,5 mol H₂SO₄ (Ar H=1, S=32, O=16)!<br><strong>Jawaban:</strong> Mr = 98 g/mol. Massa = 0,5 × 98 = 49 gram.'
                     },
                     {
-                        title: '4. Laju Reaksi & Faktor Pengaruh (Kelas 11 / Fase F)',
+                        title: 'Bab 4. Termokimia & Perubahan Entalpi (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Reaksi Eksoterm merilis kalor (ΔH < 0, suhu sistem naik). Reaksi Endoterm menyerap kalor (ΔH > 0). Hukum Hess: ΔH total tidak bergantung pada jalannya reaksi.',
+                        visual: 'Eksoterm: ΔH < 0 | Endoterm: ΔH > 0 | Hukum Hess: ΔH₁ = ΔH₂ + ΔH₃',
+                        tips: 'Perubahan entalpi pembentukan standar (ΔH°f) produk dikurangi reaktan: ΔH = Σ ΔH°f(produk) - Σ ΔH°f(reaktan).',
+                        contohSoal: 'Jika C + O₂ → CO₂ ΔH = -393,5 kJ, berapakah ΔH pembakaran 12 gram Karbon (Ar C=12)?<br><strong>Jawaban:</strong> 12 g C = 1 mol C ⇒ ΔH = -393,5 kJ.'
+                    },
+                    {
+                        title: 'Bab 5. Laju Reaksi & Faktor Pengaruh (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Laju reaksi adalah perubahan konsentrasi per satuan waktu. Ditingkatkan oleh konsentrasi, luas permukaan, suhu, dan katalis (menurunkan Energi Aktivasi Ea).',
                         visual: 'v = k [A]ˣ [B]ʸ | Suhu: v₂ = v₁ · n^[(T₂-T₁)/ΔT]',
@@ -713,7 +817,23 @@
                         contohSoal: 'Suhu naik dari 20°C ke 50°C laju naik 8 kali. Setiap naik 10°C laju naik n kali. Berapa n?<br><strong>Jawaban:</strong> n^(30/10) = 8 ⇒ n³ = 8 ⇒ n = 2.'
                     },
                     {
-                        title: '5. Larutan Penyangga / Buffer (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 6. Kesetimbangan Kimia & Le Chatelier (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Kesetimbangan dinamis terjadi saat laju reaksi maju sama dengan laju reaksi balik. Azas Le Chatelier: Sistem akan bergeser meminimalkan gangguan.',
+                        visual: 'Kc = [Produk]ⁿ / [Reaktan]ᵐ | Pergeseran Suhu: Naik -> ke arah Endoterm',
+                        tips: 'Penambahan Tekanan (atau penurunan Volume) menggeser kesetimbangan ke arah jumlah koefisien gas TERKECIL.',
+                        contohSoal: 'N₂ (g) + 3H₂ (g) ⇌ 2NH₃ (g). Jika volume diperkecil, ke mana reaksi bergeser?<br><strong>Jawaban:</strong> Kiri koefisien 4, Kanan koefisien 2 ⇒ Bergeser ke KANAN (NH₃).'
+                    },
+                    {
+                        title: 'Bab 7. Larutan Asam Basa & Titrasi (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Arrhenius: Asam rilis H⁺, Basa rilis OH⁻. pH = -log[H⁺]. Titrasi menentukan konsentrasi sampel dengan titik ekuivalen V₁ M₁ n₁ = V₂ M₂ n₂.',
+                        visual: 'pH = -log[H⁺] | pOH = -log[OH⁻] | pH + pOH = 14',
+                        tips: 'Asam kuat (HCl, HNO₃, H₂SO₄) terionisasi sempurna [H⁺] = a × M_asam.',
+                        contohSoal: 'Hitung pH larutan HCl 0,01 M!<br><strong>Jawaban:</strong> [H⁺] = 10⁻² M ⇒ pH = -log(10⁻²) = 2.'
+                    },
+                    {
+                        title: 'Bab 8. Larutan Penyangga / Buffer (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Buffer mempertahankan pH dari penambahan sedikit asam/basa. Terdiri dari Asam Lemah + Basa Konjugasinya.',
                         visual: 'Buffer Asam: [H⁺] = Ka · (mol asam lemah / mol basa konjugasi)',
@@ -721,17 +841,41 @@
                         contohSoal: '100 mL CH₃COOH 0,1 M + 50 mL CH₃COONa 0,1 M (Ka=10⁻⁵).<br><strong>Jawaban:</strong> [H⁺] = 10⁻⁵ × (10/5) = 2×10⁻⁵ M ⇒ pH = 5 - log 2.'
                     },
                     {
-                        title: '6. Elektrokimia: Sel Volta & Elektrolisis (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 9. Hidrolisis Garam & Ksp (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Garam dari Asam Lemah + Basa Kuat terhidrolisis parsial bersifat Basa (pH > 7). Ksp adalah Hasil Kali Kelarutan zat sukar larut.',
+                        visual: 'Garam Basa: [OH⁻] = √[ (Kw / Ka) × M_garam ] | Ksp AB₂ = 4s³',
+                        tips: 'Garam dari Asam Kuat + Basa Kuat (seperti NaCl) TIDAK terhidrolisis (pH = 7).',
+                        contohSoal: 'Kelarutan AgCl (s) adalah 10⁻⁵ M. Tentukan Ksp AgCl!<br><strong>Jawaban:</strong> AgCl ⇌ Ag⁺ + Cl⁻ ⇒ Ksp = s × s = (10⁻⁵)² = 10⁻¹⁰.'
+                    },
+                    {
+                        title: 'Bab 10. Sifat Koligatif Larutan (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Sifat larutan yang hanya bergantung pada jumlah partikel zat terlarut: Penurunan Tekanan Uap (ΔP), Kenaikan Titik Didih (ΔTb), Penurunan Titik Beku (ΔTf), Tekanan Osmotik (π).',
+                        visual: 'ΔTb = m · Kb · i | ΔTf = m · Kf · i | π = M · R · T · i',
+                        tips: 'Faktor van\'t Hoff i = 1 + (n - 1)α. Untuk larutan non-elektrolit, nilai i = 1.',
+                        contohSoal: 'Hitung ΔTf 0,1 molal larutan glukosa dalam air (Kf = 1,86 °C/m)!<br><strong>Jawaban:</strong> Glukosa non-elektrolit (i=1) ⇒ ΔTf = 0,1 × 1,86 = 0,186 °C.'
+                    },
+                    {
+                        title: 'Bab 11. Elektrokimia: Sel Volta & Elektrolisis (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Sel Volta mengubah reaksi spontan menjadi energi listrik. KRAP: Katoda Reduksi (Positif). E°sel = E°katoda - E°anoda.',
                         visual: 'E°sel = E°katoda - E°anoda | Hukum Faraday I: w = (e · i · t) / 96500',
-                        tips: 'Logaam dengan E° lebih POSITIF bertindak sebagai KATODA.',
+                        tips: 'Logam dengan E° lebih POSITIF bertindak sebagai KATODA.',
                         contohSoal: 'E° Zn²⁺/Zn = -0,76 V, E° Cu²⁺/Cu = +0,34 V. Hitung E°sel!<br><strong>Jawaban:</strong> E°sel = (+0,34) - (-0,76) = +1,10 Volt.'
+                    },
+                    {
+                        title: 'Bab 12. Kimia Karbon: Senyawa Turunan Alkana (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Gugus Fungsi: Alkohol (-OH), Eter (-O-), Aldehid (-CHO), Keton (-CO-), Asam Karboksilat (-COOH), Ester (-COOR). Isomer Gugus Fungsi: Alkohol dengan Eter, Aldehid dengan Keton.',
+                        visual: 'Alkohol & Eter (C_n H_{2n+2} O) | Aldehid & Keton (C_n H_{2n} O)',
+                        tips: 'Uji Fehling/Tollens memberikan hasil positif (endapan merah bata/cermin perak) hanya pada ALDEHID.',
+                        contohSoal: 'Senyawa C₃H₆O bereaksi positif dengan pereaksi Fehling. Gugus fungsinya adalah...<br><strong>Jawaban:</strong> Aldehid (-CHO).'
                     }
                 ],
                 'bio': [
                     {
-                        title: '1. Ruang Lingkup Biologi & Keanekaragaman Hayati (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Ruang Lingkup Biologi & Keanekaragaman Hayati (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Keanekaragaman hayati mencakup 3 tingkat: Gen (variasi dalam 1 spesies), Jenis/Spesies (antar spesies dalam 1 famili), dan Ekosistem.',
                         visual: 'Tingkat Gen (Mawar merah/putih) → Tingkat Jenis (Kucing/Harimau) → Tingkat Ekosistem',
@@ -739,7 +883,15 @@
                         contohSoal: 'Keanekaragaman warna mawar merah dan putih tergolong tingkat...<br><strong>Jawaban:</strong> Tingkat Gen.'
                     },
                     {
-                        title: '2. Ekologi, Rantai Makanan & Siklus Nitrogen (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Virus, Bakteri & Mikroorganisme (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Virus adalah aseluler (parasit obligat) berkapsid protein. Daur hidup: Litik (sel inang pecah) dan Lisogenik (DNA virus menyatu jadi Profag). Arkaebakteri & Eubakteri tergolong Prokariotik.',
+                        visual: 'Daur Litik: Adsorpsi -> Penetrasi -> Sintesis -> Perakitan -> Lisis',
+                        tips: 'Virus TIDAK memiliki sitoplasma maupun organel sel, hanya materi genetik (DNA atau RNA) dan kapsid.',
+                        contohSoal: 'Daur reproduksi virus yang menyebabkan hancurnya sel inang adalah...<br><strong>Jawaban:</strong> Daur Litik.'
+                    },
+                    {
+                        title: 'Bab 3. Ekologi, Rantai Makanan & Siklus Nitrogen (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Aliran energi bersifat searah (Hukum 10%). Siklus Biogeokimia Nitrogen mencakup Fiksasi N₂, Nitrifikasi (Amunisi → Nitrit → Nitrat), Asimilasi, dan Denitrifikasi.',
                         visual: 'N₂ -> Fiksasi (Rhizobium) -> Amonia -> Nitritasi (Nitrosomonas) -> Nitratasi (Nitrobacter)',
@@ -747,7 +899,7 @@
                         contohSoal: 'Pengubahan Amonia menjadi Nitrit oleh bakteri dinamakan...<br><strong>Jawaban:</strong> Nitritasi.'
                     },
                     {
-                        title: '3. Biologi Sel & Transpor Membran (Kelas 11 / Fase F)',
+                        title: 'Bab 4. Biologi Sel & Transpor Membran (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Sel adalah unit dasar kehidupan. Transpor Pasif (Difusi, Osmosis) tanpa ATP. Transpor Aktif (Pompa Na-K, Endositosis) butuh ATP.',
                         visual: 'Osmosis: Perpindahan pelarut (air) dari Hipotonis → Hipertonis',
@@ -755,7 +907,39 @@
                         contohSoal: 'Organel sel pencetak energi ATP melalui respirasi seluler adalah...<br><strong>Jawaban:</strong> Mitokondria.'
                     },
                     {
-                        title: '4. Enzim & Respirasi Seluler (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 5. Jaringan Tumbuhan & Hewan (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Jaringan Tumbuhan: Meristem (aktif membelah), Xilem (pengangkut air), Flloem (pengangkut hasil fotosintesis). Jaringan Hewan: Epitel, Ikat, Otot, dan Saraf.',
+                        visual: 'Xilem = Air & Mineral (Bawah ke Atas) | Floem = Hasil Fotosintesis (Daun ke Seluruh)',
+                        tips: 'Kambium pembuluh pada batang dikotil menyebabkan pertumbuhan sekunder (membesar).',
+                        contohSoal: 'Jaringan pengangkut hasil fotosintesis dari daun ke seluruh tubuh adalah...<br><strong>Jawaban:</strong> Jaringan Floem.'
+                    },
+                    {
+                        title: 'Bab 6. Sistem Pencernaan & Nutrisi Manusia (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Pencernaan Mekanik & Kimiawi. Enzim Pencernaan: Mulut (Ptyalin), Lambung (Pepsin, Renin, HCl), Pankreas/Usus Halus (Amilase, Lipase, Tripsin).',
+                        visual: 'Lambung: Pepsin (Protein -> Pepton) | Pankreas: Lipase (Lemak -> Asam Lemah + Gliserol)',
+                        tips: 'Getah empedu yang dihasilkan hati berfungsi mengemulsikan lemak di usus halus.',
+                        contohSoal: 'Enzim di lambung yang mengubah protein menjadi pepton adalah...<br><strong>Jawaban:</strong> Enzim Pepsin.'
+                    },
+                    {
+                        title: 'Bab 7. Sistem Peredaran Darah / Sirkulasi (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Jantung 4 ruang. Peredaran Darah Kecil: Jantung (Bilik Kanan) → Paru-paru → Jantung (Serambi Kiri). Peredaran Darah Besar: Jantung (Bilik Kiri) → Seluruh Tubuh → Jantung (Serambi Kanan).',
+                        visual: 'Kecil: Bilik Kanan -> Arteri Pulmonalis -> Paru-paru -> Vena Pulmonalis -> Serambi Kiri',
+                        tips: 'Pembuluh darah kaya Oksigen dari paru-paru menuju jantung adalah Vena Pulmonalis.',
+                        contohSoal: 'Ruang jantung pembawa darah kaya O₂ ke seluruh tubuh adalah...<br><strong>Jawaban:</strong> Bilik Kiri (Ventrikel Sinister).'
+                    },
+                    {
+                        title: 'Bab 8. Sistem Respirasi & Ekskresi Manusia (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Respirasi: Pertukaran gas O₂ dan CO₂ di Alveolus. Ekskresi: Ginjal (Pembentukan Urine: Filtrasi di Glomerulus → Reabsorpsi di TKP → Augmentasi di TKD).',
+                        visual: 'Ginjal: Filtrasi (Glomerulus -> Urine Primer) -> Reabsorpsi (TKP -> Urine Sekunder)',
+                        tips: 'Adanya glukosa dalam urine menunjukkan kerusakan pada proses Reabsorpsi di Tubulus Kontortus Proksimal.',
+                        contohSoal: 'Tahap penyaringan darah di glomerulus menghasilkan...<br><strong>Jawaban:</strong> Urine Primer.'
+                    },
+                    {
+                        title: 'Bab 9. Enzim & Respirasi Seluler / Metabolisme (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Respirasi Aerob merombak glukosa menjadi 38 ATP melalui 4 tahap: Glikolisis, Dekarboksilasi Oksidatif, Siklus Krebs, dan Transpor Elektron.',
                         visual: 'Glikolisis (Sitoplasma) -> Krebs (Matriks) -> Transpor Elektron (Krista Mitokondria)',
@@ -763,17 +947,33 @@
                         contohSoal: 'Di bagian sel manakah tahap Glikolisis terjadi?<br><strong>Jawaban:</strong> Sitoplasma (Sitosol).'
                     },
                     {
-                        title: '5. Genetika & Sintesis Protein (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 10. Fotosintesis & Anabolisme (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Anabolisme menyusun molekul kompleks. Fotosintesis: Reaksi Terang (di Grana, fotolisis air hasilkan ATP & NADPH + O₂) dan Reaksi Gelap / Siklus Calvin (di Stroma, fiksasi CO₂ hasilkan Glukosa).',
+                        visual: 'Reaksi Terang (Grana -> O₂) | Reaksi Gelap (Stroma -> Glukosa)',
+                        tips: 'Oksigen (O₂) yang dilepaskan saat fotosintesis berasal dari FOTOLISIS AIR (H₂O), bukan CO₂.',
+                        contohSoal: 'Di manakah siklus Calvin (reaksi gelap fotosintesis) berlangsung?<br><strong>Jawaban:</strong> Stroma kloroplas.'
+                    },
+                    {
+                        title: 'Bab 11. Genetika & Sintesis Protein (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Sintesis protein terdiri dari Transkripsi (DNA cetak mRNA di nukleus) dan Translasi (tRNA baca kodon di ribosom). Basa N: A-T/U dan G-C.',
                         visual: 'DNA Antisense -> Transkripsi -> mRNA -> Translasi -> Rantai Asam Amino (Protein)',
                         tips: 'Rasio persilangan dihibrid heterozigot (AaBb × AaBb) selalu 9 : 3 : 3 : 1.',
                         contohSoal: 'Jika DNA antisense 5\'-TAC GGC-3\', tentukan urutan mRNA!<br><strong>Jawaban:</strong> 3\'-AUG CCG-5\'.'
+                    },
+                    {
+                        title: 'Bab 12. Pembelahan Sel & Hereditas Mendel (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Mitosis (sel tubuh/somatis, 2n) vs Meiosis (sel kelamin/gamet, n). Hukum I Mendel (Segregasi bebas) dan Hukum II Mendel (Asortasi bebas). Penyimpangan semut: Epistasis-Hipostasis, Kriptomeri.',
+                        visual: 'Mitosis: 1 Sel -> 2 Sel Anakan Identik (2n) | Meiosis: 1 Sel -> 4 Sel Anakan (n)',
+                        tips: 'Pembelahan meiosis mengalami reduksi jumlah kromosom (diploid 2n menjadi haploid n).',
+                        contohSoal: 'Persilangan monohibrid dominan penuh (Aa × Aa) menghasilkan rasio fenotip...<br><strong>Jawaban:</strong> 3 : 1.'
                     }
                 ],
                 'eko': [
                     {
-                        title: '1. Kelangkaan & Biaya Peluang (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Kelangkaan & Biaya Peluang (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Kelangkaan terjadi karena kebutuhan manusia tak terbatas sedangkan alat pemuas terbatas. Biaya Peluang adalah nilai kesempatan terbaik yang dilepaskan.',
                         visual: 'Biaya Peluang = Nilai Kesempatan Terbaik yang Ditinggalkan (Bukan Dijumlah)',
@@ -781,7 +981,7 @@
                         contohSoal: 'Lulusan SMA melepaskan tawaran kerja A (3,5 jt) dan B (4,5 jt) demi kuliah. Berapa biaya peluangnya?<br><strong>Jawaban:</strong> Rp 4.500.000 (Pilihan terbesar yang dilepas).'
                     },
                     {
-                        title: '2. Keseimbangan Pasar & Elastisitas (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Keseimbangan Pasar & Elastisitas (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Harga Keseimbangan terjadi saat Qd = Qs. Elastisitas mengukur kepekaan perubahan jumlah akibat harga (Ed = %ΔQ / %ΔP).',
                         visual: 'Ekuilibrium: Qd = Qs | Ed > 1 (Elastis) | Ed < 1 (Inelastis)',
@@ -789,7 +989,15 @@
                         contohSoal: 'Qd = 100 - 2P dan Qs = -20 + 4P. Tentukan harga keseimbangan P!<br><strong>Jawaban:</strong> 100 - 2P = -20 + 4P ⇒ 6P = 120 ⇒ P = 20.'
                     },
                     {
-                        title: '3. PDB & Pendapatan Nasional (Kelas 11 / Fase F)',
+                        title: 'Bab 3. Bank, Lembaga Keuangan & OJK (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Bank Sentral (BI) mengatur stabilitas nilai rupiah dan sistem pembayaran. OJK (Otoritas Jasa Keuangan) mengawasi seluruh kegiatan di sektor jasa keuangan (Bank, Pasar Modal, Asuransi).',
+                        visual: 'BI = Moneter & Sistem Pembayaran | OJK = Pengawasan Sektor Keuangan',
+                        tips: 'Tugas pengawasan industri perbankan dan pasar modal di Indonesia dipegang oleh OJK sejak 2011.',
+                        contohSoal: 'Lembaga yang bertugas mengawasi industri perbankan dan asuransi adalah...<br><strong>Jawaban:</strong> OJK (Otoritas Jasa Keuangan).'
+                    },
+                    {
+                        title: 'Bab 4. PDB & Pendapatan Nasional (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'PDB/GDP menghitung total barang/jasa akhir dalam wilayah negara. Pendekatan pengeluaran: Y = C + I + G + (X - M).',
                         visual: 'Y = C + I + G + (X - M) | GNP = GDP + Pendapatan Neto Luar Negeri',
@@ -797,7 +1005,31 @@
                         contohSoal: 'C=300, I=150, G=200, X=100, M=80 (Triliun). Hitung PDB!<br><strong>Jawaban:</strong> Y = 300 + 150 + 200 + (100 - 80) = 670 Triliun.'
                     },
                     {
-                        title: '4. Kebijakan Fiskal & Moneter (Kelas 11 / Fase F)',
+                        title: 'Bab 5. Pertumbuhan & Pembangunan Ekonomi (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Pertumbuhan Ekonomi diukur dari kenaikan PDB riil tanpa memperhatikan struktur. Pembangunan Ekonomi memperhatikan PDB per kapita, kualitas hidup, dan pemerataan pendapatan.',
+                        visual: 'Laju Pertumbuhan = [ (PDB_t - PDB_{t-1}) / PDB_{t-1} ] × 100%',
+                        tips: 'Teori Rostow: 5 tahap pertumbuhan ekonomi dimulai dari Masyarakat Tradisional hingga Konsumsi Tinggi.',
+                        contohSoal: 'PDB tahun 2024 = 100 T, PDB 2025 = 108 T. Berapa laju pertumbuhannya?<br><strong>Jawaban:</strong> ((108 - 100) / 100) × 100% = 8%.'
+                    },
+                    {
+                        title: 'Bab 6. Ketenagakerjaan & Pengangguran (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Angkatan Kerja adalah penduduk usia kerja (15-64 thn) yang bekerja atau sedang mencari kerja. Jenis pengangguran: Friksional (beralih kerja), Struktural (perubahan teknologi/ekonomi), Siklis (krisis).',
+                        visual: 'TPAK = (Angkatan Kerja / Penduduk Usia Kerja) × 100%',
+                        tips: 'Pengangguran akibat PHK massal saat krisis ekonomi tergolong Pengangguran Siklis/Siklikal.',
+                        contohSoal: 'Pekerja yang menganggur karena ingin mencari gaji lebih tinggi disebut...<br><strong>Jawaban:</strong> Pengangguran Friksional.'
+                    },
+                    {
+                        title: 'Bab 7. Inflasi & Indeks Harga (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Inflasi adalah kecenderungan kenaikan harga barang secara umum dan terus-menerus. Penyebab: Demand-Pull Inflation (kenaikan permintaan) & Cost-Push Inflation (kenaikan biaya produksi).',
+                        visual: 'Laju Inflasi = [ (IHK_t - IHK_{t-1}) / IHK_{t-1} ] × 100%',
+                        tips: 'Inflasi akibat kenaikan BBM tergolong Cost-Push Inflation (dorongan biaya).',
+                        contohSoal: 'IHK bulan Januari 110, Februari 115. Berapa laju inflasi Februari?<br><strong>Jawaban:</strong> ((115 - 110) / 110) × 100% = 4,55%.'
+                    },
+                    {
+                        title: 'Bab 8. Kebijakan Fiskal & Moneter (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Fiskal diatur Pemerintah (Pajak & Belanja Negara). Moneter diatur Bank Sentral BI (Suku Bunga, Operasi Pasar Terbuka SBI, Diskonto).',
                         visual: 'Atasi Inflasi: Naikkan Pajak & Suku Bunga | Atasi Resesi: Turunkan Pajak & Suku Bunga',
@@ -805,17 +1037,41 @@
                         contohSoal: 'Kebijakan moneter BI menaikkan suku bunga bertujuan untuk...<br><strong>Jawaban:</strong> Mengurangi jumlah uang beredar dan menekan inflasi.'
                     },
                     {
-                        title: '5. Akuntansi Dasar & Jurnal Umum (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 9. Perdagangan Internasional & Kurs Valuta (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Keunggulan Mutlak (Adam Smith) vs Keunggulan Komparatif (David Ricardo). Kebijakan perdagangan: Tarif, Kuota, Subsidies, Dumping (jual lebih murah di luar negeri).',
+                        visual: 'Kurs Jual (Bank Menjual ke Kita) | Kurs Beli (Bank Membeli dari Kita)',
+                        tips: 'Gunakan Kurs Jual saat kita memenukarkan Rupiah ke Valuta Asing di Bank.',
+                        contohSoal: 'Menjual barang di luar negeri lebih murah daripada di dalam negeri dinamakan...<br><strong>Jawaban:</strong> Kebijakan Dumping.'
+                    },
+                    {
+                        title: 'Bab 10. Akuntansi Dasar & Jurnal Umum (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Persamaan Dasar: Aset = Utang + Modal. Saldo Normal: Aset & Beban bertambah di DEBET; Utang, Modal & Pendapatan bertambah di KREDIT.',
                         visual: 'Aset & Beban (Naik = Debet) | Utang, Modal, Pendapatan (Naik = Kredit)',
                         tips: 'Membeli peralatan secara kredit ⇒ Peralatan (D), Utang Usaha (K).',
                         contohSoal: 'Beli komputer Rp 8 jt secara kredit. Analisis jurnalnya adalah...<br><strong>Jawaban:</strong> Peralatan (D) Rp 8.000.000; Utang Usaha (K) Rp 8.000.000.'
+                    },
+                    {
+                        title: 'Bab 11. Buku Besar & Jurnal Penyesuaian (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Posting jurnal ke Buku Besar. Jurnal Penyesuaian (AJP) dibuat akhir periode untuk menyesuaikan akun perlengkapan, beban dibayar di muka, penyusutan aset tetap, dan pendapatan diterima di muka.',
+                        visual: 'AJP Perlengkapan: Beban Perlengkapan (D) / Perlengkapan (K) [Sebesar yang Terpakai]',
+                        tips: 'Nilai AJP Perlengkapan dihitung dari nominal perlengkapan awal dikurangi sisa perlengkapan akhir.',
+                        contohSoal: 'Perlengkapan awal Rp 5 jt, sisa akhir periode Rp 2 jt. Berapa AJP-nya?<br><strong>Jawaban:</strong> Terpakai Rp 3 jt ⇒ Beban Perlengkapan (D) Rp 3 jt, Perlengkapan (K) Rp 3 jt.'
+                    },
+                    {
+                        title: 'Bab 12. Laporan Keuangan Perusahaan Jasa & Dagang (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: '4 Laporan Utama: Laporan Laba/Rugi (Pendapatan - Beban), Laporan Perubahan Ekuitas (Modal Awal + Laba - Prive), Neraca (Aset = Kewajiban + Ekuitas), dan Laporan Arus Kas.',
+                        visual: 'Laba Bersih = Pendapatan Total - Beban Total | Modal Akhir = Modal Awal + Laba - Prive',
+                        tips: 'Jika Pendapatan > Beban maka perusahaan mengalami LABA BERSIH.',
+                        contohSoal: 'Pendapatan Rp 15 jt, Beban Rp 9 jt, Prive Rp 1 jt. Berapa penambahan modalnya?<br><strong>Jawaban:</strong> Laba = 15 - 9 = 6 jt. Penambahan modal = Laba - Prive = 6 - 1 = Rp 5.000.000.'
                     }
                 ],
                 'sos': [
                     {
-                        title: '1. Sosiologi Sebagai Ilmu & Ciri-Cirinya (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Sosiologi Sebagai Ilmu & Ciri-Cirinya (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Sosiologi mempelajari fakta sosial masyarakat. Ciri: Empiris (fakta), Teoritis (abstraksi), Kumulatif (memperbaiki teori), dan Non-Etis.',
                         visual: 'Ciri Sosiologi: Empiris, Teoritis, Kumulatif, Non-Etis',
@@ -823,7 +1079,7 @@
                         contohSoal: 'Sosiolog meneliti kemacetan tanpa menyalahkan siapapun. Ciri sosiologi ini adalah...<br><strong>Jawaban:</strong> Non-Etis.'
                     },
                     {
-                        title: '2. Nilai & Tingkatan Norma Sosial (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Nilai & Tingkatan Norma Sosial (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Norma menjaga nilai sosial. 4 Tingkatan norma berdasarkan sanksinya: Cara (Usage), Kebiasaan (Folkways), Tata Kelakuan (Mores), dan Adat Istiadat (Custom).',
                         visual: 'Sanksi Ringan -> Cara -> Kebiasaan -> Tata Kelakuan -> Adat Istiadat -> Sanksi Berat',
@@ -831,7 +1087,31 @@
                         contohSoal: 'Ditegur karena makan sambil bersendawa merupakan pelanggaran...<br><strong>Jawaban:</strong> Norma Cara (Usage).'
                     },
                     {
-                        title: '3. Stratifikasi vs Diferensiasi Sosial (Kelas 11 / Fase F)',
+                        title: 'Bab 3. Interaksi Sosial & Syarat Terjadinya (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Interaksi sosial adalah hubungan timbal balik antarindividu atau kelompok. Syarat utama: Kontak Sosial dan Komunikasi. Faktor pendorong: Imitasi, Sugesti, Identifikasi, Simpati, Empati.',
+                        visual: 'Interaksi = Kontak Sosial + Komunikasi | Pendorong: Imitasi, Sugesti, Empati',
+                        tips: 'Empati meluas hingga tindakan nyata menolong, sedangkan simpati sebatas perasaan iba.',
+                        contohSoal: 'Seseorang ikut menyumbang darah dan dana korban bencana karena iba. Faktor pendorongnya adalah...<br><strong>Jawaban:</strong> Empati Sosial.'
+                    },
+                    {
+                        title: 'Bab 4. Sosialisasi & Pembentukan Kepribadian (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Sosialisasi adalah proses belajar nilai dan norma sepanjang hidup. Tahapan Mead: Preparatory Stage (persiapan), Play Stage (meniru), Game Stage (siap bertindak), Generalized Other (penerimaan norma umum).',
+                        visual: 'Tahap Mead: Preparatory -> Play Stage -> Game Stage -> Generalized Other',
+                        tips: 'Anak kecil meniru peran dokter atau polisi tanpa paham sepenuhnya berada pada Play Stage.',
+                        contohSoal: 'Anak usia 4 tahun memakai sepatu ibunya sambil berpura-pura belanja. Tahap sosialisasinya adalah...<br><strong>Jawaban:</strong> Play Stage.'
+                    },
+                    {
+                        title: 'Bab 5. Penyimpangan Sosial & Pengendalian Sosial (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Penyimpangan timbul dari sosialisasi tidak sempurna atau subkebudayaan menyimpang (Teori Differential Association). Pengendalian sosial: Preventif (pencegahan) & Represif (pemulihan pasca kejadian).',
+                        visual: 'Penyimpangan Primar (Sementara/Dimaafkan) vs Sekunder (Berulang/Cap Penyimpang)',
+                        tips: 'Penilangan pengemudi tanpa helm oleh polisi tergolong pengendalian sosial Represif.',
+                        contohSoal: 'Siswa yang mencontek sekali saat ujian lalu menyesal tergolong penyimpangan...<br><strong>Jawaban:</strong> Penyimpangan Primer.'
+                    },
+                    {
+                        title: 'Bab 6. Stratifikasi vs Diferensiasi Sosial (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Stratifikasi adalah pelapisan vertikal (hirarki kekayaan/pendidikan). Diferensiasi adalah pengelompokan horizontal (sejajar suku/agama/profesi).',
                         visual: 'Stratifikasi (Vertikal/Hirarki) vs Diferensiasi (Horizontal/Kesetaraan)',
@@ -839,17 +1119,57 @@
                         contohSoal: 'Keragaman profesi seperti guru, dokter, dan petani tergolong...<br><strong>Jawaban:</strong> Diferensiasi Sosial.'
                     },
                     {
-                        title: '4. Konflik Sosial & Bentuk Akomodasi (Kelas 11 / Fase F)',
+                        title: 'Bab 7. Konflik Sosial & Bentuk Akomodasi (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Akomodasi adalah cara penyelesaian konflik. Mediasi (penasihat netral), Arbitrase (keputusan mengikat), Ajudikasi (pengadilan).',
                         visual: 'Mediasi (Penasihat) | Arbitrase (Mengikat) | Ajudikasi (Pengadilan)',
                         tips: 'Kata kunci Ajudikasi adalah jalur hukum atau Pengadilan Negeri.',
                         contohSoal: 'Penyelesaian sengketa tanah warga melalui Pengadilan Negeri dinamakan...<br><strong>Jawaban:</strong> Ajudikasi.'
+                    },
+                    {
+                        title: 'Bab 8. Integrasi & Reintegrasi Sosial (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Integrasi sosial adalah proses penyatuan unsur-unsur yang berbeda. Bentuk integrasi: Normatif (norma), Koersif (paksaan kekuasaan), dan Fungsional (saling membutuhkan fungsi).',
+                        visual: 'Integrasi: Normatif (Aturan) | Fungsional (Saling Butuh) | Koersif (Paksaan)',
+                        tips: 'Suku Jawa menyuplai beras dan Suku Bugis menyuplai ikan membentuk Integrasi Fungsional.',
+                        contohSoal: 'Kerjasama antar wilayah karena saling melengkapi kebutuhan pangan merupakan bentuk integrasi...<br><strong>Jawaban:</strong> Integrasi Fungsional.'
+                    },
+                    {
+                        title: 'Bab 9. Kelompok Sosial & Masyarakat Multikultural (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Kelompok Primer (tatap muka erat: keluarga) vs Kelompok Sekunder (formal/tugas). In-Group (kelompok kita) vs Out-Group. Paguyuban (Gemeinschaft) vs Patembayan (Gesellschaft).',
+                        visual: 'Gemeinschaft (Ikatan Batin/Keluarga) vs Gesellschaft (Kontrak Formal/Ikatan Kerja)',
+                        tips: 'Hubungan kerja anggota organisasi atau PT tergolong Patembayan (Gesellschaft).',
+                        contohSoal: 'Masyarakat ikatan trah keluarga atau ikatan darah memiliki hubungan tipe...<br><strong>Jawaban:</strong> Gemeinschaft (Paguyuban).'
+                    },
+                    {
+                        title: 'Bab 10. Perubahan Sosial & Modernisasi (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Perubahan sosial mengubah struktur dan nilai masyarakat. Faktor pendorong: Penemuan baru (Inovasi), Kontak budaya lain (Akulturasi & Asimilasi). Teori Perubahan: Evolusi, Siklus, Konflik.',
+                        visual: 'Akulturasi (A + B = AB - Budaya Asli Bertahan) vs Asimilasi (A + B = C - Budaya Baru)',
+                        tips: 'Musik K-Pop dipadu dengan Tari Tradisional tanpa menghilangkan unsur asli adalah Akulturasi.',
+                        contohSoal: 'Penyatuan dua budaya berbeda yang menghasilkan budaya baru dan menghilangkan budaya asli adalah...<br><strong>Jawaban:</strong> Asimilasi.'
+                    },
+                    {
+                        title: 'Bab 11. Globalisasi & Ketimpangan Sosial (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Globalisasi mengaburkan batas antarnegara (Dunia tanpa batas). Dampak negatif: Westernisasi, Konsumerisme, Glokalisasi, dan Ketimpangan Ekonomi antar wilayah.',
+                        visual: 'Glokalisasi = Penyesuaian produk global ke budaya lokal',
+                        tips: 'Sikap menyaring budaya luar sesuai kearifan lokal adalah respons kritis menghadapi Globalisasi.',
+                        contohSoal: 'Restoran cepat saji Amerika menjual menu nasi rendang di Indonesia tergolong fenomena...<br><strong>Jawaban:</strong> Glokalisasi.'
+                    },
+                    {
+                        title: 'Bab 12. Penelitian Sosial & Metode Analisis (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Penelitian Kuantitatif (data angka, angket/kuesioner, analisis statistik) vs Kualitatif (data narasi/deskriptif, wawancara mendalam, observasi).',
+                        visual: 'Kuantitatif (Statistik/Angket) vs Kualitatif (Wawancara/Deskriptif)',
+                        tips: 'Pengambilan sampel acak bertingkat dinamakan Stratified Random Sampling.',
+                        contohSoal: 'Teknik pengumpulan data dengan cara tanya jawab langsung tatap muka dinamakan...<br><strong>Jawaban:</strong> Wawancara Mendalam (In-depth Interview).'
                     }
                 ],
                 'geo': [
                     {
-                        title: '1. Prinsip Geografi & 10 Konsep Dasar (Kelas 10 / Fase E)',
+                        title: 'Bab 1. Prinsip Geografi & 10 Konsep Dasar (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: '4 Prinsip: Distribusi (persebaran), Interelasi (sebab-akibat), Deskripsi (penjelasan/peta), dan Korologi (gabungan komprehensif).',
                         visual: 'Prinsip Korologi = Distribusi + Interelasi + Deskripsi secara Komprehensif',
@@ -857,7 +1177,15 @@
                         contohSoal: 'Banjir Jakarta akibat penggundulan hutan di Bogor sesuai prinsip...<br><strong>Jawaban:</strong> Prinsip Interelasi.'
                     },
                     {
-                        title: '2. Dinamika Litosfer & Siklus Batuan (Kelas 10 / Fase E)',
+                        title: 'Bab 2. Peta, Pemetaan & Proyeksi Geografi (Kelas 10 / Fase E)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Komponen Peta: Skala, Judul, Orientasi, Legenda, Inset. Skala Peta: Jarak Peta = Jarak Sebenarnya × Skala. Proyeksi Silinder cocok untuk daerah Katulistiwa.',
+                        visual: 'Skala = Jarak Peta / Jarak Sebenarnya | Kontur Interval CI = (1/2000) × Skala Utama',
+                        tips: 'Makin kecil angka penyebut skala, peta makin detail (Peta Skala Besar).',
+                        contohSoal: 'Jarak A-B di peta 4 cm, jarak sebenarnya 2 km (200.000 cm). Hitung skalanya!<br><strong>Jawaban:</strong> Skala = 4 / 200.000 = 1 : 50.000.'
+                    },
+                    {
+                        title: 'Bab 3. Dinamika Litosfer & Siklus Batuan (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Litosfer adalah kulit bumi. Tenaga Endogen (Tektonisme, Vulkanisme, Seisme) vs Tenaga Eksogen (Pelapukan, Erosi, Sedimentasi).',
                         visual: 'Magma -> Batuan Beku -> Batuan Sedimen -> Batuan Metamorf (Suhu/Tekanan Tinggi)',
@@ -865,7 +1193,7 @@
                         contohSoal: 'Batu kapur yang mengalami suhu dan tekanan tinggi berubah menjadi batu...<br><strong>Jawaban:</strong> Batu Marmer (Metamorf).'
                     },
                     {
-                        title: '3. Dinamika Atmosfer & Lapisan Udara (Kelas 11 / Fase F)',
+                        title: 'Bab 4. Dinamika Atmosfer & Lapisan Udara (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
                         summary: '5 Lapisan Atmosfer: Troposfer (cuaca & hujan), Stratosfer (Ozon UV), Mesosfer (pembakar meteor), Termosfer (pemantul radio), Eksosfer.',
                         visual: 'Troposfer (Cuaca) -> Stratosfer (Ozon) -> Mesosfer (Meteor) -> Termosfer (Radio)',
@@ -873,17 +1201,73 @@
                         contohSoal: 'Lapisan atmosfer tempat terjadinya hujan dan pembentukan awan adalah...<br><strong>Jawaban:</strong> Troposfer.'
                     },
                     {
-                        title: '4. Penginderaan Jauh & SIG (Kelas 12 / Fase F Lanjut)',
+                        title: 'Bab 5. Dinamika Hidrosfer & Siklus Air (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Siklus Air: Evaporasi/Transpirasi → Kondensasi (Awan) → Presipitasi (Hujan) → Infiltrasi (Penyerapan ke tanah) → Run-off (Limpasan permukaan).',
+                        visual: 'Evaporasi -> Kondensasi -> Presipitasi -> Infiltrasi -> Run-off',
+                        tips: 'Infiltrasi adalah proses masuknya air hujan ke dalam pori-pori tanah.',
+                        contohSoal: 'Proses perubahan uap air menjadi titik-titik air awan disebut...<br><strong>Jawaban:</strong> Kondensasi.'
+                    },
+                    {
+                        title: 'Bab 6. Flora & Fauna Indonesia serta Dunia (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Garis Wallace dan Weber membagi wilayah fauna Indonesia: Asiatis (Barat: Gajah, Harimau), Peralihan (Tengah: Komodo, Anoa), dan Australis (Timur: Cendrawasih, Kanguru Pohon). Bioma Dunia: Tundra, Taiga, Hutan Hujan Tropis, Sabana, Stepa, Gurun.',
+                        visual: 'Asiatis (Garis Wallace) Peralihan (Garis Weber) Australis',
+                        tips: 'Komodo dan Anoa merupakan fauna endemik kawasan Peralihan (Wallacea).',
+                        contohSoal: 'Burung Cendrawasih dan Kanguru Pohon tergolong fauna wilayah...<br><strong>Jawaban:</strong> Australis (Indonesia Timur).'
+                    },
+                    {
+                        title: 'Bab 7. Sumber Daya Alam & Ketahanan Pangan (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'SDA Terbarukan (Hutan, Air, Solar) vs Tak Terbarukan (Minyak Bumi, Batubara, Emas). Prinsip Pembangunan Berkelanjutan (Eco-efficiency) menjaga kelestarian generasi mendatang.',
+                        visual: 'SDA Terbarukan (Hayati) vs Tak Terbarukan (Tambang/Fosil)',
+                        tips: 'Penggunaan energi surya dan angin merupakan bentuk pemanfaatan SDA Terbarukan.',
+                        contohSoal: 'SDA tambang golongan A yang strategis bagi pertahanan negara contohnya...<br><strong>Jawaban:</strong> Minyak Bumi dan Uranium.'
+                    },
+                    {
+                        title: 'Bab 8. Dinamika Kependudukan & Demografi (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Pertumbuhan Penduduk: P = (L - M) + (I - E). Piramida Penduduk: Muda (Ekspansif), Dewasa (Stasioner), Tua (Konstruktif). Bonus Demografi dialami saat angka beban ketergantungan (Dependency Ratio) rendah.',
+                        visual: 'Dependency Ratio = (Penduduk Non-Produktif / Penduduk Produktif) × 100',
+                        tips: 'Bonus Demografi terjadi saat proporsi penduduk usia produktif (15-64 thn) mencapai puncak > 60%.',
+                        contohSoal: 'Piramida penduduk dengan bentuk kerucut bawah lebar menunjukkan tipe...<br><strong>Jawaban:</strong> Piramida Muda (Ekspansif).'
+                    },
+                    {
+                        title: 'Bab 9. Penginderaan Jauh & SIG (Kelas 12 / Fase F Lanjut)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'SIG mengolah data spasial komputer. Penginderaan Jauh merekam citra satelit/udara. Teknik Overlay peta untuk menentukan lokasi potensial.',
                         visual: 'Overlay SIG: Peta Lereng + Peta Hujan -> Peta Rawan Longsor',
                         tips: 'Unsur interpretasi citra: Bentuk, Ukuran, Rona, Tekstur, Pola, Bayangan, Situs, Asosiasi.',
                         contohSoal: 'Lapangan bola pada foto udara dikenali dari bentuk persegi panjang dan rumput halus. Unsur yang digunakan adalah...<br><strong>Jawaban:</strong> Bentuk dan Tekstur.'
+                    },
+                    {
+                        title: 'Bab 10. Pola Keruangan Desa & Kota (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Pola Pemukiman Desa: Memanjang (jalan/sungai/pantai), Menyebar (pegunungan), Mengelompok. Teori Zona Konsentris Kota (Burgess): CBD pusat -> Zona Transisi -> Pemukiman.',
+                        visual: 'Pola Desa: Memanjang (Sungai/Jalan) | Mengelompok (Dataran Rendah)',
+                        tips: 'Pemukiman desa di sepanjang jalur rel kereta api atau sungai membentuk pola Memanjang (Linier).',
+                        contohSoal: 'Pusat kegiatan bisnis dan perdagangan utama dalam teori kota Burgess dinamakan...<br><strong>Jawaban:</strong> CBD (Central Business District).'
+                    },
+                    {
+                        title: 'Bab 11. Interaksi Wilayah & Teori Gravitasi (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Kekuatan Interaksi (Teori Gravitasi Carey): I_AB = k (P_A × P_B) / (d_AB)². Teori Titik Henti (Reilly) menentukan lokasi fasilitas pelayanan optimum.',
+                        visual: 'Interaksi: I_AB = (P_A · P_B) / (d_AB)² | Titik Henti: D_TH = d_AB / (1 + √(P_B / P_A))',
+                        tips: 'Titik Henti diukur dari kota yang jumlah penduduknya LEBIH KECIL.',
+                        contohSoal: 'Kota A (10.000 jiwa) dan Kota B (40.000 jiwa) jarak 30 km. Lokasi pasar optimum dari Kota A adalah...<br><strong>Jawaban:</strong> D_TH = 30 / (1 + √(40.000/10.000)) = 30 / (1 + 2) = 10 km dari Kota A.'
+                    },
+                    {
+                        title: 'Bab 12. Kerjasama Negara Maju & Berkembang (Kelas 12 / Fase F Lanjut)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Ciri Negara Maju: Pendapatan per kapita tinggi, penguasaan teknologi tinggi, sektor industri dominan. Negara Berkembang: Pertumbuhan penduduk tinggi, sektor agraris dominan.',
+                        visual: 'Negara Maju (Industri/Teknologi/HDI Tinggi) vs Negara Berkembang (Agraris/HDI Sedang)',
+                        tips: 'Indikator keberhasilan pembangunan manusia diukur lewat Indeks Pembangunan Manusia (IPM / HDI).',
+                        contohSoal: 'Jepang dan Jerman dikategorikan sebagai negara maju karena...<br><strong>Jawaban:</strong> Penguasaan teknologi tinggi dan pendapatan per kapita sangat besar.'
                     }
                 ],
                 'lit': [
                     {
-                        title: '1. Bahasa Indonesia: Ide Pokok & Paragraf (SNBT)',
+                        title: 'Bab 1. Bahasa Indonesia: Ide Pokok & Paragraf (SNBT)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Ide Pokok adalah inti paragraf. Paragraf Deduktif (ide utama di awal). Paragraf Induktif (ide utama di akhir, ditandai: oleh karena itu, dengan demikian).',
                         visual: 'Deduktif (Kalimat Pertama) vs Induktif (Kalimat Terakhir)',
@@ -891,12 +1275,92 @@
                         contohSoal: 'Tentukan kalimat utama paragraf deduktif!<br><strong>Jawaban:</strong> Berada di kalimat pertama paragraf.'
                     },
                     {
-                        title: '2. English Comprehension: Main Idea & Author\'s Tone (SNBT)',
+                        title: 'Bab 2. Bahasa Indonesia: Simpulan & Makna Istilah/Konteks (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Simpulan merangkum seluruh isi teks secara logis. Makna kata/istilah dapat bersifat Denotatif (makna lugas/sebenarnya) atau Konotatif (makna kiasan).',
+                        visual: 'Simpulan = Ide Pokok Kalimat Utama + Informasi Penting Penjelas',
+                        tips: 'Simpulan tidak boleh mengandung opini baru yang tidak didukung oleh teks bacaan.',
+                        contohSoal: 'Apa simpulan teks tentang bahaya sampah plastik di laut?<br><strong>Jawaban:</strong> Sampah plastik harus dikurangi karena mencemari laut dan mengancam ekosistem.'
+                    },
+                    {
+                        title: 'Bab 3. Bahasa Indonesia: Ejaan, Tanda Baca & Kalimat Efektif (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'PUEBI/EYD: Penulisan kata serapan, huruf kapital, dan tanda baca (koma, titik dua). Kalimat Efektif memiliki Keparalelan, Kehematan kata, dan Kelogisan subjek-predikat.',
+                        visual: 'Syarat Kalimat Efektif: Subjek Jelas + Predikat + Paralel + Hemat Kata',
+                        tips: 'Hindari pemakaian kata berulang yang bermakna sama (seperti: "sangat... sekali").',
+                        contohSoal: '"Para tamu-tamu hadir." Bagaimanakah perbaikan kalimat efektifnya?<br><strong>Jawaban:</strong> "Tamu-tamu hadir" atau "Para tamu hadir".'
+                    },
+                    {
+                        title: 'Bab 4. Bahasa Indonesia: Penalaran Logis & Argumen Teks (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Menguji kemampuan evaluasi argumen penulis, mendeteksi kelemahan penalaran (fallacy), serta menentukan fakta vs opini.',
+                        visual: 'Fakta (Teruji & Ada Data) vs Opini (Pandangan / Klaim Subjektif)',
+                        tips: 'Kalimat berisi kata "sebaiknya", "mungkin", "diperkirakan" tergolong OPINI.',
+                        contohSoal: 'Manakah yang tergolong fakta?<br><strong>Jawaban:</strong> "Candi Borobudur terletak di Kabupaten Magelang, Jawa Tengah."'
+                    },
+                    {
+                        title: 'Bab 5. Bahasa Indonesia: Konjungsi & Kohesi Teks (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Konjungsi Antarkalimat (Akan tetapi, Namun, Oleh karena itu) menyambungkan dua kalimat. Konjungsi Intrakalimat (sehingga, karena, sedangkan) menyambungkan antarklausa.',
+                        visual: 'Antarkalimat: "..., Namun, ..." | Intrakalimat: "... karena ..."',
+                        tips: 'Kata "Sedangkan" dan "Sehingga" tidak boleh diletakkan di awal kalimat.',
+                        contohSoal: 'Konjungsi yang tepat untuk menunjukkan hubungan sebab-akibat antarkalimat adalah...<br><strong>Jawaban:</strong> Oleh karena itu / Oleh sebab itu.'
+                    },
+                    {
+                        title: 'Bab 6. Bahasa Indonesia: Kritis & Analisis Opini Penulis (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Menganalisis tujuan penulis (menjelaskan, membujuk, mengkritik) serta memprediksi dampak tulisan terhadap pembaca.',
+                        visual: 'Tujuan Penulis: Persuasif (Membujuk) | Edukatif (Informatif) | Kritis (Mengevaluasi)',
+                        tips: 'Perhatikan kata sifat emosional yang digunakan penulis untuk menebak keberpihakannya.',
+                        contohSoal: 'Penulis menyoroti kelemahan kebijakan baru dengan data kerugian. Tujuan penulis adalah...<br><strong>Jawaban:</strong> Mengkritik kebijakan tersebut.'
+                    },
+                    {
+                        title: 'Bab 7. English Comprehension: Main Idea & Author\'s Tone (SNBT)',
                         kurikulum: 'K13 & Merdeka',
                         summary: 'Main idea conveys the primary point. Author\'s Tone expresses feelings/attitudes (Critical, Objective, Optimistic, Neutral).',
                         visual: 'Tone Types: Objective (Factual) | Critical (Disapproving) | Optimistic (Positive)',
                         tips: 'Positive adjectives indicate an optimistic tone; critical adjectives indicate disapproval.',
                         contohSoal: 'Text uses words like "revolutionary" and "unparalleled solution". The author\'s tone is...<br><strong>Jawaban:</strong> Optimistic / Supportive.'
+                    },
+                    {
+                        title: 'Bab 8. English Comprehension: Scanning & Detail Information (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Scanning locates specific numbers, dates, or keywords without reading every word. True/False questions test accuracy against text facts.',
+                        visual: 'Scanning Strategy: Key Terms -> Locate Paragraph -> Read Surrounding Sentences',
+                        tips: 'Focus on proper nouns and numeric figures to find target answers rapidly.',
+                        contohSoal: 'According to paragraph 2, when was the treaty signed?<br><strong>Jawaban:</strong> Locate the year in paragraph 2.'
+                    },
+                    {
+                        title: 'Bab 9. English Comprehension: Inference & Implied Meaning (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Inference questions ("It can be inferred that...", "The text implies...") require logically concluding facts not explicitly stated.',
+                        visual: 'Inference = Explicit Text Evidence + Logical Deductive Reasoning',
+                        tips: 'Do not pick choices that go beyond the logical boundary of the provided text.',
+                        contohSoal: 'If the study shows 90% reduced emissions, we can infer that...<br><strong>Jawaban:</strong> The new technology is environmentally friendlier.'
+                    },
+                    {
+                        title: 'Bab 10. English Comprehension: Vocabulary in Context (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Determining word meanings based on surrounding sentence context, synonyms, and antonyms.',
+                        visual: 'Context Clues: Definition, Contrast Words (However), Examples (such as)',
+                        tips: 'Substitute the answer choices into the original sentence to verify fluency and sense.',
+                        contohSoal: 'The word "deteriorate" in paragraph 3 is closest in meaning to...<br><strong>Jawaban:</strong> Worsen / Decline.'
+                    },
+                    {
+                        title: 'Bab 11. Penalaran Umum: Silogisme & Logika Proposisi (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Modus Ponens (Jika p→q, p terjadi ⇒ q), Modus Tollens (Jika p→q, ~q terjadi ⇒ ~p), Silogisme (Jika p→q dan q→r ⇒ p→r). Negasi / Ingkaran dari p→q adalah p ∧ ~q.',
+                        visual: 'Modus Ponens: p→q, p ∴ q | Modus Tollens: p→q, ~q ∴ ~p | Silogisme: p→q, q→r ∴ p→r',
+                        tips: 'Ingat! Ingkaran/Negasi dari "Jika P maka Q" adalah "P DAN TIDAK Q".',
+                        contohSoal: 'Premis 1: Jika hujan, jalan basah. Premis 2: Jalan tidak basah. Kesimpulannya?<br><strong>Jawaban:</strong> Hari tidak hujan (Modus Tollens).'
+                    },
+                    {
+                        title: 'Bab 12. Penalaran Umum: Analogi & Pola Barisan Angka/Kata (SNBT)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: 'Penalaran analogi padanan hubungan kata A : B = C : D. Penalaran kuantitatif mencari pola larik angka berurutan atau lompat (Fibonacci, tingkat dua).',
+                        visual: 'Analogi: Mobil : Bensin = Manusia : Makanan | Pola Angka: 2, 4, 8, 16 (×2)',
+                        tips: 'Buatlah kalimat lengkap yang menghubungkan pasangan kata pertama untuk diuji pada pasangan kedua.',
+                        contohSoal: 'Sendok : Makan = Pisau : ...<br><strong>Jawaban:</strong> Memotong (Fungsi alat).'
                     }
                 ]
             },
@@ -1073,17 +1537,17 @@
                         <div class="relative z-10 max-w-3xl">
                             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-xs font-semibold mb-6">
                                 <i data-lucide="sparkles" class="w-4 h-4 text-purple-400"></i>
-                                <span>Edisi Terintegrasi Google Gemini AI & Bank Materi Super Lengkap</span>
+                                <span>Edisi Master Academic • 12 Bab Per Mapel (96 Modul Terperinci)</span>
                             </div>
                             <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4 leading-tight">
                                 Kuasai Konsep SMA & Taklukkan <span class="bg-clip-text text-transparent gradient-gemini">UTBK SNBT 2026</span>.
                             </h1>
                             <p class="text-slate-300 text-xs sm:text-sm mb-8 leading-relaxed">
-                                Bank modul pembelajaran terlengkap seluruh mata pelajaran SMA, **Flashcard Rumus Auto-Flip**, serta pendampingan **Gemini AI Super Tutor**.
+                                Bank modul pembelajaran terlengkap (12 bab lengkap per mata pelajaran), **Flashcard Rumus Auto-Flip**, serta pendampingan **Gemini AI Super Tutor**.
                             </p>
                             <div class="flex flex-wrap gap-4">
                                 <button onclick="switchView('materi')" class="gradient-gemini text-white font-extrabold px-6 py-3.5 rounded-2xl shadow-lg shadow-purple-500/25 hover:opacity-95 transition flex items-center gap-2 text-xs sm:text-sm">
-                                    <i data-lucide="book-open" class="w-4 h-4"></i> Pelajari Modul Terperinci
+                                    <i data-lucide="book-open" class="w-4 h-4"></i> Pelajari 96 Modul Terperinci
                                 </button>
                                 <button onclick="switchView('flashcards')" class="bg-slate-800/90 border border-slate-700 text-white font-extrabold px-6 py-3.5 rounded-2xl hover:bg-slate-800 transition flex items-center gap-2 text-xs sm:text-sm">
                                     <i data-lucide="layers" class="w-4 h-4 text-pink-400"></i> Flashcards Rumus Cepat
@@ -1096,7 +1560,7 @@
                     <div class="mb-12">
                         <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
                             <div>
-                                <h2 class="text-2xl font-black text-white tracking-tight">Mata Pelajaran SMA (Lengkap)</h2>
+                                <h2 class="text-2xl font-black text-white tracking-tight">Mata Pelajaran SMA (12 Bab Lengkap)</h2>
                                 <p class="text-slate-400 text-xs sm:text-sm">Pilih kurikulum untuk menyesuaikan struktur Fase/Kelas Anda</p>
                             </div>
                             <div class="bg-slate-900/90 p-1 rounded-2xl border border-slate-800 flex gap-1 text-xs font-bold">
@@ -1116,7 +1580,7 @@
                                         ${state.selectedKurikulum === 'Merdeka' ? m.merdeka : m.k13}
                                     </p>
                                     <div class="flex items-center justify-between text-xs text-slate-400 pt-3 border-t border-slate-800/80">
-                                        <span class="font-bold text-[11px]">Buka Modul Belajar</span>
+                                        <span class="font-bold text-[11px]">Buka 12 Bab Modul</span>
                                         <i data-lucide="arrow-right" class="w-4 h-4 text-purple-400 group-hover:translate-x-1 transition"></i>
                                     </div>
                                 </div>
@@ -1330,7 +1794,7 @@
             return `
                 <div class="fade-in">
                     <div class="mb-8">
-                        <h1 class="text-3xl font-black text-white tracking-tight">Modul Pembelajaran SMA (Kelas 10-12)</h1>
+                        <h1 class="text-3xl font-black text-white tracking-tight">Modul Pembelajaran Master (12 Bab Per Mapel)</h1>
                         <p class="text-slate-400 text-xs sm:text-sm mt-1">Penjelasan mendalam, analogi intuitif, rumus visual, serta pendampingan langsung dari Gemini AI.</p>
                     </div>
                     <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
@@ -1343,7 +1807,7 @@
                                     </div>
                                     <div class="flex flex-col">
                                         <span class="font-extrabold text-sm text-slate-200 group-hover:text-purple-300 transition">${m.nama}</span>
-                                        <span class="text-[10px] text-slate-500 font-medium">${(db.materiDetails[m.id] || []).length} Modul Terperinci</span>
+                                        <span class="text-[10px] text-slate-500 font-medium">${(db.materiDetails[m.id] || []).length} Bab Modul Lengkap</span>
                                     </div>
                                 </button>
                             `).join('')}
@@ -1385,7 +1849,7 @@
                             </div>
                             <div>
                                 <h2 class="text-2xl font-black text-white tracking-tight">${mapel.nama}</h2>
-                                <p class="text-xs text-purple-400 font-extrabold mt-0.5">Cakupan Kelas 10, 11, & 12 • Kurikulum K13 & Merdeka</p>
+                                <p class="text-xs text-purple-400 font-extrabold mt-0.5">12 Bab Terperinci • Kurikulum K13 & Merdeka</p>
                             </div>
                         </div>
                     </div>
@@ -1399,7 +1863,7 @@
                                     </button>
                                     <div class="flex items-center justify-between mb-3 pr-8">
                                         <span class="text-[10px] font-extrabold uppercase bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full border border-purple-500/30">${mat.kurikulum}</span>
-                                        <span class="text-xs text-slate-500 font-mono">Modul #${idx + 1}</span>
+                                        <span class="text-xs text-slate-500 font-mono">Modul ${idx + 1} / 12</span>
                                     </div>
                                     <h3 class="text-lg font-extrabold text-white mb-3 leading-snug">${mat.title}</h3>
                                     <div class="text-slate-300 text-xs sm:text-sm mb-4 leading-relaxed">${mat.summary}</div>
@@ -1573,7 +2037,7 @@
                     <div id="quiz-container" class="space-y-8">
                         ${currentSim.soal.map((q, idx) => `
                             <div class="bg-slate-900/90 p-6 rounded-2xl border border-slate-800">
-                                <span class="text-xs font-bold text-purple-400 font-mono block mb-2">Soal #${idx + 1} dari${currentSim.soal.length}</span>
+                                <span class="text-xs font-bold text-purple-400 font-mono block mb-2">Soal #${idx + 1} dari ${currentSim.soal.length}</span>
                                 <p class="text-sm sm:text-base text-slate-100 font-medium mb-5 leading-relaxed">${q.pertanyaan}</p>
                                 <div class="space-y-3">
                                     ${q.pilihan.map(opt => `
