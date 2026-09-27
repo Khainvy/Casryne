@@ -72,9 +72,9 @@
     <div class="bg-gradient-to-r from-purple-950 via-slate-950 to-indigo-950 text-xs py-2 px-4 font-medium border-b border-purple-500/20 text-purple-200 flex justify-between items-center z-50">
         <div class="flex items-center gap-2">
             <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-[10px] font-black bg-purple-500/20 text-purple-300 border border-purple-500/40 shadow-sm">
-                ⚡ Nihiluxxy AI Pro v6.0 Ultra Master Edition
+                ⚡ Nihiluxxy AI Pro v6.0 Ultra Master Expanded
             </span>
-            <span class="hidden sm:inline text-slate-300">Modul Matematika & Sains Komprehensif (Kelas 10-12) & Bank Soal UTBK SNBT 2026</span>
+            <span class="hidden sm:inline text-slate-300">Seluruh Materi SMA (Kelas 10-12 Kompleks) & Bank Soal UTBK SNBT 2026</span>
         </div>
         <div class="flex items-center gap-4 text-[11px] font-semibold text-purple-300">
             <span class="hidden md:flex items-center gap-1.5 font-mono text-emerald-400">
@@ -107,7 +107,7 @@
             <div class="hidden lg:flex items-center flex-1 max-w-md mx-6">
                 <div class="relative w-full">
                     <i data-lucide="search" class="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
-                    <input type="text" id="global-search" oninput="handleGlobalSearch(this.value)" placeholder="Cari materi & soal (misal: Vektor, Matriks, Integral, Trigonometri, Titrasi)..." class="w-full bg-slate-900/90 border border-slate-700/80 rounded-2xl pl-10 pr-12 py-2 text-xs text-slate-200 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition shadow-inner">
+                    <input type="text" id="global-search" oninput="handleGlobalSearch(this.value)" placeholder="Cari materi & soal (misal: Vektor, Matriks, pH, Stoikiometri, Hukum Newton, Sosiologi)..." class="w-full bg-slate-900/90 border border-slate-700/80 rounded-2xl pl-10 pr-12 py-2 text-xs text-slate-200 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition shadow-inner">
                     <kbd class="hidden sm:inline-block absolute right-3 top-1/2 -translate-y-1/2 text-[9px] bg-slate-800 border border-slate-700 px-1.5 py-0.5 rounded text-slate-400 font-mono font-bold">⌘K</kbd>
                     <div id="search-results-popover" class="hidden absolute left-0 right-0 top-12 bg-slate-900/95 border border-purple-500/30 rounded-2xl shadow-2xl p-2 z-50 max-h-80 overflow-y-auto custom-scrollbar backdrop-blur-xl"></div>
                 </div>
@@ -177,7 +177,7 @@
                             <h3 class="font-black text-white text-base">Nihiluxxy AI Super Tutor</h3>
                             <span class="text-[9px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-mono font-bold">Smart Multi-Solver v6.0</span>
                         </div>
-                        <p class="text-[11px] text-purple-300">Pakar Matematika Lanjut, Kalkulus, Sains, Soshum & UTBK SNBT 2026</p>
+                        <p class="text-[11px] text-purple-300">Pakar Matematika, Fisika, Kimia, Biologi, Ekonomi, Sosiologi, Geografi, Sejarah & UTBK SNBT 2026</p>
                     </div>
                 </div>
                 <button onclick="toggleAiModal()" class="w-9 h-9 rounded-xl bg-slate-800/80 hover:bg-slate-700 text-slate-400 hover:text-white flex items-center justify-center transition">
@@ -193,11 +193,11 @@
                 <button onclick="injectAiPrompt('Tolong jelaskan rumus Invers dan Determinan Matriks 2x2 beserta contoh soal HOTS!')" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-purple-900/50 border border-slate-700 text-purple-200 whitespace-nowrap transition flex items-center gap-1.5">
                     <i data-lucide="grid" class="w-3.5 h-3.5 text-pink-400"></i> Matriks & Invers
                 </button>
-                <button onclick="injectAiPrompt('Bagaimana membedakan Permutasi dan Kombinasi dalam soal cerita Peluang UTBK?')" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-purple-900/50 border border-slate-700 text-purple-200 whitespace-nowrap transition flex items-center gap-1.5">
-                    <i data-lucide="dices" class="w-3.5 h-3.5 text-emerald-400"></i> Permutasi vs Kombinasi
+                <button onclick="injectAiPrompt('Bagaimana menghitung pH larutan penyangga (buffer) asam dan basa secara cepat?')" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-purple-900/50 border border-slate-700 text-purple-200 whitespace-nowrap transition flex items-center gap-1.5">
+                    <i data-lucide="flask-conical" class="w-3.5 h-3.5 text-emerald-400"></i> pH Larutan Buffer
                 </button>
-                <button onclick="injectAiPrompt('Jelaskan Teorema Sisa dan Metode Horner pada Polinomial secara singkat dan paham!')" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-purple-900/50 border border-slate-700 text-purple-200 whitespace-nowrap transition flex items-center gap-1.5">
-                    <i data-lucide="binary" class="w-3.5 h-3.5 text-amber-400"></i> Polinomial Horner
+                <button onclick="injectAiPrompt('Jelaskan Hukum Kirchhoff II dan cara menentukan arah arus loop dalam rangkaian listrik!')" class="px-3.5 py-1.5 rounded-xl bg-slate-800 hover:bg-purple-900/50 border border-slate-700 text-purple-200 whitespace-nowrap transition flex items-center gap-1.5">
+                    <i data-lucide="zap" class="w-3.5 h-3.5 text-amber-400"></i> Hukum Kirchhoff
                 </button>
             </div>
 
@@ -206,15 +206,15 @@
                 <div class="flex gap-3 items-start">
                     <div class="w-9 h-9 rounded-xl gradient-accent flex-shrink-0 flex items-center justify-center text-white text-xs font-bold shadow-md">AI</div>
                     <div class="bg-slate-900/90 border border-purple-500/30 p-4 sm:p-5 rounded-2xl text-xs sm:text-sm text-slate-200 max-w-xl leading-relaxed shadow-xl">
-                        <p class="font-bold text-purple-300 text-sm mb-1">Selamat datang di Nihiluxxy AI Super Tutor v6.0! 🚀</p>
-                        <p>Ketik soal matematika rumit, konsep fisika/kimia, atau logika penalaran umum. Engine AI akan mengurai rumus, menyajikan analogi, dan memberikan solusi presisi langkah-demi-langkah!</p>
+                        <p class="font-bold text-purple-300 text-sm mb-1">Selamat datang di Nihiluxxy AI Super Tutor v6.0 Master Expanded! 🚀</p>
+                        <p>Ketik soal rumit untuk mata pelajaran Matematika, Fisika, Kimia, Biologi, Ekonomi, Sosiologi, Geografi, Sejarah, atau Penalaran UTBK. Engine AI akan mengurai konsep, memberikan analogi intuitif, serta menyajikan solusi presisi langkah-demi-langkah!</p>
                     </div>
                 </div>
             </div>
 
             <!-- AI Input Box Area -->
             <div class="p-3 sm:p-4 bg-slate-900 border-t border-slate-800 flex items-center gap-2">
-                <textarea id="ai-user-input" rows="1" onkeydown="handleAiKeyDown(event)" placeholder="Ketik pertanyaan atau salin soal di sini (misal: 'Berapa invers dari f(x) = (2x+3)/(x-5)?')..." class="flex-1 bg-slate-950 border border-slate-700/80 rounded-2xl px-4 py-3 text-xs sm:text-sm text-slate-100 focus:outline-none focus:border-purple-500 custom-scrollbar resize-none"></textarea>
+                <textarea id="ai-user-input" rows="1" onkeydown="handleAiKeyDown(event)" placeholder="Ketik pertanyaan atau salin soal di sini (misal: 'Berapa pH larutan CH3COOH 0,1 M jika Ka = 10^-5?')..." class="flex-1 bg-slate-950 border border-slate-700/80 rounded-2xl px-4 py-3 text-xs sm:text-sm text-slate-100 focus:outline-none focus:border-purple-500 custom-scrollbar resize-none"></textarea>
                 <button onclick="sendAiQuery()" class="w-12 h-12 rounded-2xl gradient-accent text-white flex items-center justify-center hover:opacity-95 transition shadow-lg shadow-purple-500/25 flex-shrink-0">
                     <i data-lucide="send" class="w-5 h-5"></i>
                 </button>
@@ -292,16 +292,17 @@
             flashcardFilter: 'semua'
         };
 
-        // Fully Expanded Database Engine
+        // Fully Expanded Database Engine - 100% Comprehensive Content
         const db = {
             mapel: [
                 { id: 'mat', nama: 'Matematika Wajib & Lanjut', icon: 'calculator', color: 'from-blue-600 to-cyan-500', k13: 'Kelas 10-12 IPA/IPS', merdeka: 'Fase E & F (14 Modul Terperinci)' },
-                { id: 'fis', nama: 'Fisika', icon: 'zap', color: 'from-indigo-600 to-blue-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Peminatan Sains)' },
-                { id: 'kim', nama: 'Kimia', icon: 'flask-conical', color: 'from-purple-600 to-pink-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Peminatan Sains)' },
-                { id: 'bio', nama: 'Biologi', icon: 'dna', color: 'from-emerald-600 to-teal-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Peminatan Sains)' },
-                { id: 'eko', nama: 'Ekonomi & Akuntansi', icon: 'trending-up', color: 'from-amber-600 to-yellow-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Peminatan Sosial)' },
-                { id: 'sos', nama: 'Sosiologi', icon: 'users', color: 'from-rose-600 to-red-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Peminatan Sosial)' },
-                { id: 'geo', nama: 'Geografi', icon: 'globe', color: 'from-teal-600 to-emerald-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Peminatan Sosial)' },
+                { id: 'fis', nama: 'Fisika', icon: 'zap', color: 'from-indigo-600 to-blue-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Kinematika, Listrik, Optik, Modern)' },
+                { id: 'kim', nama: 'Kimia', icon: 'flask-conical', color: 'from-purple-600 to-pink-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Stoikiometri, Asam-Basa, Buffer, Redoks)' },
+                { id: 'bio', nama: 'Biologi', icon: 'dna', color: 'from-emerald-600 to-teal-500', k13: 'Kelas 10-12 IPA', merdeka: 'Fase F (Sel, Metabolisme, Genetika, Ekologi)' },
+                { id: 'eko', nama: 'Ekonomi & Akuntansi', icon: 'trending-up', color: 'from-amber-600 to-yellow-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Pasar, Moneter, Jurnal Penyesuaian)' },
+                { id: 'sos', nama: 'Sosiologi', icon: 'users', color: 'from-rose-600 to-red-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Interaksi, Penyimpangan, Stratifikasi)' },
+                { id: 'geo', nama: 'Geografi', icon: 'globe', color: 'from-teal-600 to-emerald-500', k13: 'Kelas 10-12 IPS', merdeka: 'Fase F (Prinsip, Litosfer, Atmosfer, Peta)' },
+                { id: 'sej', nama: 'Sejarah Indonesia & Dunia', icon: 'landmark', color: 'from-red-600 to-orange-500', k13: 'Kelas 10-12 Wajib/Peminatan', merdeka: 'Fase E & F (Peradaban, Proklamasi, Orba)' },
                 { id: 'lit', nama: 'Literasi Bahasa & Penalaran', icon: 'book-marked', color: 'from-orange-600 to-amber-500', k13: 'Wajib Semua Jurusan', merdeka: 'Fase E & F (General Literacy & PU)' }
             ],
             flashcards: [
@@ -312,13 +313,19 @@
                 { mapel: 'Matematika', pertanyaan: 'Berapakah jumlah tak hingga deret geometri jika suku pertama a dan rasio r (|r| < 1)?', jawaban: 'S_∞ = a / (1 - r).' },
                 { mapel: 'Fisika', pertanyaan: 'Apakah Hukum Kirchhoff II tentang tegangan dalam sebuah loop tertutup?', jawaban: 'Jumlah perubahan potensial (ΣE + Σ(I·R)) dalam loop tertutup adalah nol.' },
                 { mapel: 'Fisika', pertanyaan: 'Bagaimana nilai v_y pada titik puncak gerak parabola?', jawaban: 'v_y = 0 m/s.' },
+                { mapel: 'Fisika', pertanyaan: 'Apakah rumus frekuensi gelombang pada Efek Doppler jika sumber bunyi mendekat?', jawaban: 'f_p = [v / (v - v_s)] · f_s.' },
                 { mapel: 'Kimia', pertanyaan: 'Apakah perubahan yang terjadi saat Sistem Kesetimbangan ditambah konsentrasi pereaksinya?', jawaban: 'Kesetimbangan bergeser ke arah Kanan (ke arah Produk/Hasil Reaksi).' },
+                { mapel: 'Kimia', pertanyaan: 'Bagaimanakah rumus menghitung [H⁺] pada larutan penyangga (buffer) asam?', jawaban: '[H⁺] = K_a × (mol Asam Lemah / mol Basa Konjugasi).' },
                 { mapel: 'Kimia', pertanyaan: 'Apakah syarat wujud zat yang dihitung dalam rumus K_c?', jawaban: 'Hanya wujud Gas (g) dan Larutan/Aqueous (aq).' },
                 { mapel: 'Biologi', pertanyaan: 'Apakah peran utama Klorofil dalam Reaksi Terang Fotosintesis?', jawaban: 'Menyerap energi foton matahari dan mengalami eksitasi elektron.' },
                 { mapel: 'Biologi', pertanyaan: 'Di manakah tempat terjadinya Siklus Krebs dalam sel?', jawaban: 'Di dalam Matriks Mitokondria.' },
+                { mapel: 'Biologi', pertanyaan: 'Apakah fungsi utama organel Ribosom dalam sel?', jawaban: 'Sintesis protein dari asam amino berdasarkan arahan mRNA.' },
                 { mapel: 'Ekonomi', pertanyaan: 'Apakah rumus Elastisitas Harga Permintaan (E_d)?', jawaban: 'E_d = (% Perubahan Jumlah Permintaan) / (% Perubahan Harga).' },
+                { mapel: 'Ekonomi', pertanyaan: 'Bagaimana dampak penetapan harga batas atas (Ceiling Price) bagi pasar?', jawaban: 'Membuat jumlah permintaan melebihi penawaran (Excess Demand / Kelangkaan).' },
                 { mapel: 'Sosiologi', pertanyaan: 'Apakah perbedaan mendasar antara Akulturasi dan Asimilasi?', jawaban: 'Akulturasi: Pembauran budaya tanpa menghilangkan ciri asli. Asimilasi: Pembauran hingga membentuk budaya baru.' },
+                { mapel: 'Sosiologi', pertanyaan: 'Apakah arti ciri Sosiologi bersifat Non-Etis?', jawaban: 'Menganalisis fakta sosial secara objektif tanpa menilai baik atau buruknya moral pelaku.' },
                 { mapel: 'Geografi', pertanyaan: 'Apakah fungsi utama Citra Penginderaan Jauh inframerah termal?', jawaban: 'Mendeteksi suhu permukaan bumi, pemetaan vegetasi, dan persebaran kalor.' },
+                { mapel: 'Sejarah', pertanyaan: 'Apakah latar belakang utama terjadinya peristiwa Rengasdengklok pada 16 Agustus 1945?', jawaban: 'Perbedaan pendapat antara golongan muda dan tua mengenai waktu pelaksanaan proklamasi tanpa campur tangan PPKI/Jepang.' },
                 { mapel: 'Penalaran Umum', pertanyaan: 'Apakah kesimpulan sah dari Modus Tollens: P → Q, ~Q?', jawaban: 'Kesimpulannya adalah ~P (Bukan P).' }
             ],
             materiDetails: {
@@ -326,256 +333,266 @@
                     {
                         title: '1. Eksponen, Bentuk Akar & Logaritma (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Eksponen adalah perkalian berulang. Logaritma adalah invers dari eksponensial (aⁿ = b ⇔ ᵃlog b = n).',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Eksponen menggambarkan bentuk perkalian berulang dari suatu bilangan basis. Logaritma adalah operasi kebalikan (invers) dari eksponensial yang menentukan besar pangkat suatu bilangan pokok (misal: aⁿ = b ⇔ ᵃlog b = n).',
                         visual: 'ᵃlog(b·c) = ᵃlog b + ᵃlog c  |  ᵃlog(b/c) = ᵃlog b - ᵃlog c  |  ᵃlog bⁿ = n · ᵃlog b',
-                        tips: '<strong>Metode Cerdas:</strong> Jika a^(f(x)) = a^(g(x)), samakan pangkatnya f(x) = g(x).',
-                        contohSoal: 'Jika ᵃlog b + ᵃlog b² = 12, hitung ᵃlog(a·b).<br><strong>Penyelesaian:</strong> 3 · ᵃlog b = 12 ⇒ ᵃlog b = 4. Maka ᵃlog(a·b) = ᵃlog a + ᵃlog b = 1 + 4 = <strong>5</strong>.'
+                        tips: '<strong>Langkah Cerdas Penyelesaian:</strong> Apabila menemui persamaan eksponen berbentuk a^(f(x)) = a^(g(x)), segera samakan pangkatnya menjadi f(x) = g(x) dengan syarat basis a > 0 dan a ≠ 1.',
+                        contohSoal: 'Jika diketahui ᵃlog b + ᵃlog b² = 12, hitunglah nilai dari ᵃlog(a·b).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan sifat logaritma: ᵃlog b² = 2 · ᵃlog b.<br>2. Persamaan menjadi: ᵃlog b + 2 · ᵃlog b = 12 ⇒ 3 · ᵃlog b = 12 ⇒ ᵃlog b = 4.<br>3. Hitung ᵃlog(a·b) = ᵃlog a + ᵃlog b = 1 + 4 = <strong>5</strong>.'
                     },
                     {
                         title: '2. Persamaan Kuadrat & Rumus Vieta (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Bentuk umum ax² + bx + c = 0. Diskriminan D = b² - 4ac menentukan jenis akar (D > 0 dua akar real, D = 0 kembar, D < 0 imajiner).',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Persamaan kuadrat adalah persamaan polinomial berderajat dua dengan bentuk umum ax² + bx + c = 0. Nilai Diskriminan D = b² - 4ac menentukan sifat akar (D > 0 dua akar real berbeda, D = 0 dua akar kembar, D < 0 akar imajiner).',
                         visual: 'Vieta: x₁ + x₂ = -b/a  |  x₁ · x₂ = c/a  |  Puncak Parabola: (-b / 2a , -D / 4a)',
-                        tips: 'Gunakan identitas Vieta untuk x₁² + x₂² = (x₁ + x₂)² - 2(x₁·x₂).',
-                        contohSoal: 'Jika x² - (k + 2)x + 16 = 0 memiliki dua akar kembar positif, tentukan k.<br><strong>Penyelesaian:</strong> D = (k+2)² - 64 = 0 ⇒ k+2 = ±8 ⇒ k = 6 atau -10. Syarat positif: x₁+x₂ = k+2 > 0 ⇒ <strong>k = 6</strong>.'
+                        tips: '<strong>Trik HOTS:</strong> Gunakan identitas aljabar Vieta untuk menentukan jumlah kuadrat akar-akar: x₁² + x₂² = (x₁ + x₂)² - 2(x₁·x₂).',
+                        contohSoal: 'Jika x² - (k + 2)x + 16 = 0 memiliki dua akar kembar positif, tentukan nilai k.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Syarat akar kembar adalah D = 0 ⇒ (-(k+2))² - 4(1)(16) = 0 ⇒ (k+2)² = 64.<br>2. Akarkan kedua ruas: k + 2 = 8 atau k + 2 = -8 ⇒ k = 6 atau k = -10.<br>3. Karena kedua akar positif, jumlah akar x₁ + x₂ = (k+2)/1 > 0 ⇒ 6+2 = 8 > 0 (Memenuhi). Jadi nilai k = <strong>6</strong>.'
                     },
                     {
                         title: '3. Trigonometri Dasar & Identitas Lanjut (Kelas 10-11 / Fase E & F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Perbandingan trigonometri siku-siku (sin = depan/miring, cos = samping/miring, tan = depan/samping). Identitas utama: sin²θ + cos²θ = 1.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Trigonometri mempelajari hubungan antara sudut dan panjang sisi segitiga. Pada segitiga siku-siku: sin θ = depan/miring, cos θ = samping/miring, dan tan θ = depan/samping. Identitas utama yang wajib dihafalkan adalah sin²θ + cos²θ = 1.',
                         visual: 'sin(A ± B) = sin A cos B ± cos A sin B  |  cos(A ± B) = cos A cos B ∓ sin A sin B',
-                        tips: '<strong>Aturan Sinus & Kosinus:</strong> Aturan Sinus: a/sin A = b/sin B. Aturan Kosinus: c² = a² + b² - 2ab cos C.',
-                        contohSoal: 'Segitiga ABC memiliki a = 4, b = 6, dan sudut C = 60°. Hitung panjang sisi c.<br><strong>Penyelesaian:</strong> c² = 4² + 6² - 2(4)(6) cos 60° = 16 + 36 - 48(0,5) = 52 - 24 = 28 ⇒ c = √28 = <strong>2√7</strong>.'
+                        tips: '<strong>Aturan Sinus & Kosinus:</strong> Gunakan Aturan Sinus (a/sin A = b/sin B) jika diketahui pasang sudut-sisi berhadapan, dan Aturan Kosinus (c² = a² + b² - 2ab cos C) jika diketahui dua sisi dan satu sudut apit.',
+                        contohSoal: 'Segitiga ABC memiliki panjang sisi a = 4 cm, b = 6 cm, dan sudut C = 60°. Hitunglah panjang sisi c.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan Aturan Kosinus: c² = a² + b² - 2ab cos C.<br>2. Substitusi nilai: c² = 4² + 6² - 2(4)(6) cos 60° = 16 + 36 - 48(0,5) = 52 - 24 = 28.<br>3. Panjang sisi c = √28 = <strong>2√7 cm</strong>.'
                     },
                     {
                         title: '4. Vektor pada R² & R³ (Proyeksi & Ortogonalitas) (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Vektor memiliki besar dan arah. Perkalian titik (dot product) u · v = |u||v| cos θ = u₁v₁ + u₂v₂ + u₃v₃.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Vektor adalah besaran yang memiliki nilai dan arah. Operasi perkalian skalar dua vektor (dot product) dinyatakan sebagai u · v = |u||v| cos θ = u₁v₁ + u₂v₂ + u₃v₃.',
                         visual: 'Dua Vektor Tegak Lurus: u · v = 0  |  Proyeksi Skalar: |p| = (u · v) / |v|',
-                        tips: 'Dua vektor sejajar jika u = k · v (saling kelipatan).',
-                        contohSoal: 'Diketahui u = (2, -1) dan v = (x, 4). Jika u dan v tegak lurus, berapa x?<br><strong>Penyelesaian:</strong> u · v = 0 ⇒ 2(x) + (-1)(4) = 0 ⇒ 2x - 4 = 0 ⇒ <strong>x = 2</strong>.'
+                        tips: 'Dua vektor u dan v dikatakan saling tegak lurus (ortogonal) jika dan hanya jika hasil perkalian titiknya sama dengan nol (u · v = 0).',
+                        contohSoal: 'Diketahui vektor u = (2, -1) dan v = (x, 4). Jika u dan v saling tegak lurus, berapa nilai x?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Syarat tegak lurus: u · v = 0.<br>2. Hitung dot product: (2)(x) + (-1)(4) = 0 ⇒ 2x - 4 = 0 ⇒ 2x = 4 ⇒ <strong>x = 2</strong>.'
                     },
                     {
                         title: '5. Matriks, Determinan & Invers (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Matriks A = [[a,b],[c,d]]. Determinan det(A) = ad - bc. Invers A⁻¹ = (1/det A) · [[d,-b],[-c,a]].',
-                        visual: 'det(A · B) = det(A) · det(B)  |  det(A⁻¹) = 1 / det(A)',
-                        tips: 'Jika det(A) = 0, matriks disebut Matriks Singular (tidak punya invers).',
-                        contohSoal: 'Jika det(A) = 5 dan det(B) = 2, berapakah det(3A⁻¹ · B) untuk matriks 2x2?<br><strong>Penyelesaian:</strong> det(3A⁻¹ · B) = 3² · (1/det A) · det B = 9 × (1/5) × 2 = <strong>18/5</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Matriks adalah susunan bilangan dalam bentuk baris dan kolom. Determinan matriks 2x2 [[a,b],[c,d]] didefinisikan sebagai det(A) = ad - bc. Invers matriks A⁻¹ didefinisikan sebagai (1/det A) · [[d,-b],[-c,a]].',
+                        visual: 'det(A · B) = det(A) · det(B)  |  det(A⁻¹) = 1 / det(A)  |  det(k·A_2x2) = k²·det(A)',
+                        tips: 'Jika nilai determinan suatu matriks sama dengan nol (det A = 0), maka matriks tersebut bersifat singular dan tidak memiliki invers.',
+                        contohSoal: 'Jika det(A) = 5 dan det(B) = 2, berapakah determinan dari 3A⁻¹ · B untuk matriks berordo 2x2?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Sifat determinan: det(3A⁻¹ · B) = 3² · det(A⁻¹) · det(B).<br>2. Sifat invers: det(A⁻¹) = 1/det(A) = 1/5.<br>3. Hitung hasil akhir: 9 × (1/5) × 2 = <strong>18/5 = 3,6</strong>.'
                     },
                     {
                         title: '6. Barisan & Deret Aritmatika - Geometri (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Aritmatika (beda konstan b), Geometri (rasio konstan r). Deret tak hingga konvergen jika -1 < r < 1.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Barisan aritmatika memiliki selisih antar suku (beda b) yang konstan, sedangkan barisan geometri memiliki perbandingan antar suku (rasio r) yang konstan. Deret geometri tak hingga konvergen jika rasio -1 < r < 1.',
                         visual: 'Aritmatika: U_n = a + (n-1)b  |  Geometri: U_n = a·rⁿ⁻¹  |  Tak Hingga: S_∞ = a / (1 - r)',
-                        tips: '<strong>Trik Cepat Aritmatika:</strong> Suku tengah U_t = (a + U_n) / 2.',
-                        contohSoal: 'Deret geometri tak hingga memiliki suku pertama a = 12 dan jumlah S_∞ = 18. Berapa rasionya?<br><strong>Penyelesaian:</strong> 18 = 12 / (1 - r) ⇒ 1 - r = 12/18 = 2/3 ⇒ r = 1 - 2/3 = <strong>1/3</strong>.'
+                        tips: '<strong>Trik Cepat Aritmatika:</strong> Jumlah n suku pertama deret aritmatika dapat dicari instan dengan S_n = (n / 2) · (suku pertama + suku terakhir).',
+                        contohSoal: 'Sebuah deret geometri tak hingga memiliki suku pertama a = 12 dan jumlah tak hingga S_∞ = 18. Hitunglah rasionya.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan rumus S_∞ = a / (1 - r).<br>2. Substitusi nilai: 18 = 12 / (1 - r) ⇒ 1 - r = 12/18 = 2/3.<br>3. Rasio r = 1 - 2/3 = <strong>1/3</strong>.'
                     },
                     {
                         title: '7. Limit Fungsi Aljabar & Trigonometri (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Jika substitusi menghasilkan 0/0, gunakan pemfaktoran atau Aturan L\'Hopital. Limit trigonometri dasar: lim (x→0) (sin ax / bx) = a/b.',
-                        visual: 'lim (x→c) [f(x)/g(x)] = lim (x→c) [f\'(x)/g\'(x)]  |  lim (x→0) (tan ax / bx) = a/b',
-                        tips: 'Gunakan Aturan L\'Hopital untuk menghemat waktu pada soal limit pecahan aljabar rumit.',
-                        contohSoal: 'Hitung lim (x→0) (1 - cos 2x) / (x sin x).<br><strong>Penyelesaian:</strong> 1 - cos 2x = 2 sin² x. Maka lim (x→0) (2 sin² x) / (x sin x) = lim (x→0) (2 sin x / x) = 2(1) = <strong>2</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Limit menjelaskan perilaku suatu fungsi ketika variabel mendekati nilai tertentu. Jika substitusi langsung menghasilkan bentuk tak tentu 0/0, selesaikan dengan memfaktorkan atau mengalikan sekawan, atau gunakan Aturan L\'Hopital (turunan pembilang / turunan penyebut).',
+                        visual: 'lim (x→c) [f(x)/g(x)] = lim (x→c) [f\'(x)/g\'(x)]  |  lim (x→0) (sin ax / bx) = a/b',
+                        tips: 'Ingat rumus limit trigonometri dasar: lim (x→0) (sin ax / bx) = a/b dan lim (x→0) (tan ax / bx) = a/b.',
+                        contohSoal: 'Hitunglah nilai dari lim (x→0) (1 - cos 2x) / (x sin x).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan identitas trigonometri: 1 - cos 2x = 2 sin² x.<br>2. Limit menjadi lim (x→0) (2 sin² x) / (x sin x) = lim (x→0) (2 sin x) / x.<br>3. Menurut sifat limit trigonometri lim (x→0) (sin x / x) = 1, maka hasilnya adalah 2(1) = <strong>2</strong>.'
                     },
                     {
                         title: '8. Turunan Fungsi, Garis Singgung & Stasioner (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> f\'(x) adalah gradien garis singgung m. Titik stasioner dicapai saat f\'(x) = 0.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Turunan pertama f\'(x) merepresentasikan laju perubahan seketika sekaligus gradien garis singgung (m) kurva di titik tertentu. Titik stasioner dicapai ketika f\'(x) = 0.',
                         visual: 'Aturan Rantai: d/dx [f(g(x))] = f\'(g(x)) · g\'(x)  |  m = f\'(x₁)',
-                        tips: 'Fungsi naik saat f\'(x) > 0; Fungsi turun saat f\'(x) < 0.',
-                        contohSoal: 'Tentukan titik stasioner minimum dari f(x) = x² - 6x + 8.<br><strong>Penyelesaian:</strong> f\'(x) = 2x - 6 = 0 ⇒ x = 3. Nilai y = 3² - 6(3) + 8 = -1. Titik minimum: <strong>(3, -1)</strong>.'
+                        tips: 'Fungsi selalu naik pada interval di mana f\'(x) > 0, dan fungsi selalu turun pada interval di mana f\'(x) < 0.',
+                        contohSoal: 'Tentukan titik balik minimum dari kurva f(x) = x² - 6x + 8.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Syarat stasioner: f\'(x) = 0 ⇒ 2x - 6 = 0 ⇒ x = 3.<br>2. Hitung nilai fungsi y = f(3) = (3)² - 6(3) + 8 = 9 - 18 + 8 = -1.<br>3. Titik balik minimum adalah <strong>(3, -1)</strong>.'
                     },
                     {
                         title: '9. Integral Tentu, Luas & Volume Benda Putar (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Integral adalah antiturunan. Luas daerah L = ∫[a,b] f(x) dx. Volume putar sumbu-X: V = π ∫[a,b] [f(x)]² dx.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Integral adalah operasi kebalikan dari turunan (antiturunan). Integral tentu digunakan untuk menghitung luas daerah di bawah kurva L = ∫[a,b] f(x) dx serta volume benda putar V = π ∫[a,b] [f(x)]² dx.',
                         visual: 'Trik Luas Parabola-Garis: L = (D √D) / (6 a²)',
-                        tips: 'Gunakan rumus D√D / (6a²) untuk menghitung luas antara parabola ax²+bx+c dan garis secara instan.',
-                        contohSoal: 'Hitung luas daerah dibatasi y = x² - 4x dan sumbu-X.<br><strong>Penyelesaian:</strong> D = (-4)² - 4(1)(0) = 16. L = (16 × √16) / (6 × 1²) = (16 × 4) / 6 = <strong>32/3 satuan luas</strong>.'
+                        tips: 'Gunakan rumus cepat L = (D √D) / (6a²) untuk menghitung luas daerah antara parabola ax² + bx + c dan sumbu-X tanpa perlu mengintegralkan.',
+                        contohSoal: 'Hitunglah luas daerah yang dibatasi oleh parabola y = x² - 4x dan sumbu-X.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Nilai a = 1, b = -4, c = 0. Diskriminan D = (-4)² - 4(1)(0) = 16.<br>2. Gunakan rumus cepat: Luas = (16 × √16) / (6 × 1²) = (16 × 4) / 6 = 64 / 6 = <strong>32/3 satuan luas</strong>.'
                     },
                     {
                         title: '10. Polinomial / Suku Banyak & Teorema Sisa (Kelas 11 Lanjut / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Suku banyak P(x) = a_n xⁿ + ... + a₀. Teorema Sisa: Pembagian P(x) oleh (x - k) menghasilkan sisa S = P(k).',
-                        visual: 'Teorema Faktor: (x - k) adalah faktor dari P(x) jika dan hanya jika P(k) = 0',
-                        tips: 'Gunakan Metode Horner untuk pembagian polinomial cepat.',
-                        contohSoal: 'Jika P(x) = 2x³ - x² + ax - 4 dibagi (x - 2) bersisa 10, tentukan a.<br><strong>Penyelesaian:</strong> P(2) = 10 ⇒ 2(8) - 4 + 2a - 4 = 10 ⇒ 16 - 8 + 2a = 10 ⇒ 2a = 2 ⇒ <strong>a = 1</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Polinomial P(x) adalah bentuk aljabar berderajat n. Teorema Sisa menyatakan bahwa apabila polinomial P(x) dibagi oleh pembagi berbentuk (x - k), maka sisa pembagiannya adalah S = P(k).',
+                        visual: 'Teorema Faktor: (x - k) merupakan faktor dari P(x) jika dan hanya jika P(k) = 0',
+                        tips: 'Manfaatkan Metode Horner untuk pembagian polinomial agar proses perhitungan jauh lebih cepat dibandingkan pembagian bersusun.',
+                        contohSoal: 'Jika P(x) = 2x³ - x² + ax - 4 dibagi oleh (x - 2) menghasilkan sisa 10, tentukan nilai a.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Menurut Teorema Sisa: Sisa = P(2) = 10.<br>2. Substitusi x = 2: 2(2)³ - (2)² + a(2) - 4 = 10 ⇒ 16 - 4 + 2a - 4 = 10.<br>3. Simplifikasi: 8 + 2a = 10 ⇒ 2a = 2 ⇒ <strong>a = 1</strong>.'
                     },
                     {
                         title: '11. Kombinatorika, Permutasi & Peluang (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Permutasi memperhatikan urutan P(n,r) = n!/(n-r)!. Kombinasi tidak memperhatikan urutan C(n,r) = n!/[r!(n-r)!].',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Permutasi digunakan untuk menghitung susunan objek dengan memperhatikan urutan P(n,r) = n!/(n-r)!. Kombinasi digunakan jika urutan tidak diperhatikan C(n,r) = n!/[r!(n-r)!].',
                         visual: 'Peluang P(A) = n(A) / n(S)  |  Kejadian Saling Bebas: P(A ∩ B) = P(A) × P(B)',
-                        tips: 'Ingat keyword: "Susunan/Jabatan" = Permutasi, "Tim/Kelompok/Pengambilan Acak" = Kombinasi.',
-                        contohSoal: 'Dari 6 orang calon, akan dipilih 3 orang pengurus tim. Banyak cara memilih?<br><strong>Penyelesaian:</strong> C(6,3) = 6! / (3! 3!) = (6 × 5 × 4) / (3 × 2 × 1) = <strong>20 cara</strong>.'
+                        tips: '<strong>Kata Kunci HOTS:</strong> Jika soal menyebutkan "susunan/jabatan/ranking", gunakan Permutasi. Jika menyebutkan "pemilihan tim/kelompok/kelereng acak", gunakan Kombinasi.',
+                        contohSoal: 'Dari 6 orang calon pengurus, akan dipilih 3 orang untuk menjadi anggota tim peneliti. Berapa banyak cara pemilihan?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Karena pemilihan tim tidak membedakan jabatan, gunakan Kombinasi C(6,3).<br>2. Hitung: C(6,3) = 6! / (3! · (6-3)!) = (6 × 5 × 4) / (3 × 2 × 1) = <strong>20 cara</strong>.'
                     },
                     {
                         title: '12. Geometri Analitik Lingkaran & Garis Singgung (Kelas 11 Lanjut / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Lingkaran pusat (a,b) jari-jari r: (x - a)² + (y - b)² = r². Persamaan umum x² + y² + Ax + By + C = 0.',
-                        visual: 'Pusat: (-A/2, -B/2)  |  Jari-jari: r = √(A²/4 + B²/4 - C)',
-                        tips: 'Garis singgung bergradien m: y - b = m(x - a) ± r √(1 + m²).',
-                        contohSoal: 'Tentukan pusat dan jari-jari lingkaran x² + y² - 4x + 6y - 12 = 0.<br><strong>Penyelesaian:</strong> Pusat = (4/2, -6/2) = <strong>(2, -3)</strong>. r = √(4 + 9 - (-12)) = √25 = <strong>5</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Lingkaran berpusat di (a,b) dengan jari-jari r memiliki persamaan (x - a)² + (y - b)² = r². Persamaan umum lingkaran adalah x² + y² + Ax + By + C = 0 dengan Pusat (-A/2, -B/2) dan r = √(A²/4 + B²/4 - C).',
+                        visual: 'Garis Singgung Bergradien m: y - b = m(x - a) ± r √(1 + m²)',
+                        tips: 'Panjang garis singgung persekutuan luar dua lingkaran dengan jarak pusat d dan jari-jari R, r adalah L = √(d² - (R - r)²).',
+                        contohSoal: 'Tentukan titik pusat dan jari-jari lingkaran dari persamaan x² + y² - 4x + 6y - 12 = 0.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Pusat lingkaran = (-(-4)/2, -6/2) = <strong>(2, -3)</strong>.<br>2. Jari-jari r = √(2² + (-3)² - (-12)) = √(4 + 9 + 12) = √25 = <strong>5 unit</strong>.'
                     },
                     {
                         title: '13. Fungsi Komposisi & Fungsi Invers (Kelas 10-11 / Fase E & F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> (f ∘ g)(x) = f(g(x)). Invers f⁻¹(x) membalikkan domain dan kodomain.',
-                        visual: 'Invers Rasional: f(x) = (ax + b)/(cx + d) ⇒ f⁻¹(x) = (-dx + b)/(cx - a)',
-                        tips: 'Trik cepat invers rasional: Tukar posisi a dan d, lalu ubah tandanya menjadi negatif.',
-                        contohSoal: 'Jika f(x) = (3x + 2) / (x - 4), tentukan f⁻¹(x).<br><strong>Penyelesaian:</strong> Gunakan trik cepat (a=3, d=-4): f⁻¹(x) = <strong>(4x + 2) / (x - 3)</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Fungsi komposisi (f ∘ g)(x) memetakan g(x) terlebih dahulu lalu dimasukkan ke dalam f(x). Fungsi invers f⁻¹(x) merepresentasikan pemetaan kebalikan dari daerah hasil kembali ke daerah asal.',
+                        visual: 'Invers Fungsi Rasional: f(x) = (ax + b)/(cx + d) ⇒ f⁻¹(x) = (-dx + b)/(cx - a)',
+                        tips: '<strong>Trik Cepat Invers Rasional:</strong> Untuk membalikkan fungsi f(x) = (ax + b) / (cx + d), cukup tukar posisi angka a dan d lalu balikkan tandanya menjadi negatif.',
+                        contohSoal: 'Jika f(x) = (3x + 2) / (x - 4), tentukanlah rumus fungsi invers f⁻¹(x).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Identifikasi parameter: a = 3, b = 2, c = 1, d = -4.<br>2. Gunakan rumus cepat: tukar posisi a=3 dan d=-4 dengan mengubah tanda.<br>3. Hasil fungsi invers f⁻¹(x) = <strong>(4x + 2) / (x - 3)</strong>.'
                     },
                     {
                         title: '14. Program Linear & Nilai Optimum (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '<strong>Konsep Dasar:</strong> Menentukan nilai maksimum/minimum fungsi objektif f(x,y) = ax + by pada daerah penyelesaian pertidaksamaan.',
-                        visual: 'Garis Selidik: ax + by = k  |  Uji Titik Pojok Daerah Penyelesaian',
-                        tips: 'Nilai optimum selalu berada pada salah satu titik pojok (vertiks) daerah penyelesaian.',
-                        contohSoal: 'Maksimumkan z = 3x + 4y pada titik pojok (0,5), (3,3), dan (4,0).<br><strong>Jawab:</strong> z(0,5)=20, z(3,3)=21, z(4,0)=12. Maksimum = <strong>21</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Program linear adalah metode untuk memaksimalkan atau meminimalkan fungsi tujuan f(x,y) = ax + by di bawah kendala sistem pertidaksamaan linear.',
+                        visual: 'Garis Selidik: ax + by = k  |  Uji Titik Pojok Daerah Penyelesaian (DP)',
+                        tips: 'Nilai optimum selalu terletak pada salah satu titik pojok (vertiks) dari daerah himpunan penyelesaian (DHP).',
+                        contohSoal: 'Tentukan nilai maksimum dari fungsi objektif z = 3x + 4y jika titik-titik pojok DHP adalah (0,5), (3,3), dan (4,0).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Uji titik (0,5): z = 3(0) + 4(5) = 20.<br>2. Uji titik (3,3): z = 3(3) + 4(3) = 9 + 12 = 21.<br>3. Uji titik (4,0): z = 3(4) + 4(0) = 12.<br>4. Nilai maksimum adalah <strong>21</strong> (di titik (3,3)).'
                     }
                 ],
                 'fis': [
                     {
                         title: '1. Kinematika & Gerak Parabola (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Perpaduan GLB horizontal (v_x = v₀ cos θ) dan GLBB vertikal (v_y = v₀ sin θ - gt).',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Gerak parabola merupakan perpaduan antara Gerak Lurus Beraturan (GLB) pada sumbu horizontal X dan Gerak Lurus Berubah Beraturan (GLBB) pada sumbu vertikal Y di bawah pengaruh percepatan gravitasi.',
                         visual: 'H_max = (v₀² sin² θ) / 2g  |  X_max = (v₀² sin 2θ) / g',
-                        tips: 'Di titik tertinggi, v_y = 0 m/s, namun v_x tetap konstan v₀ cos θ.',
-                        contohSoal: 'Batu dilempar v₀ = 20 m/s sudut 30° (g = 10 m/s²). Ketinggian maksimum?<br><strong>Jawab:</strong> H_max = (400 × (0.5)²) / 20 = <strong>5 meter</strong>.'
+                        tips: 'Di titik tertinggi trajectory parabola, komponen kecepatan vertikal bernilai v_y = 0 m/s, tetapi kecepatan horizontal v_x tetap konstan v₀ cos θ.',
+                        contohSoal: 'Sebuah peluru ditembakkan dengan v₀ = 20 m/s dan sudut elevasi 30° (g = 10 m/s²). Hitunglah tinggi maksimum peluru.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan rumus H_max = (v₀² sin² θ) / 2g.<br>2. Nilai sin 30° = 0,5.<br>3. Hitung: H_max = (20² × (0,5)²) / (2 × 10) = (400 × 0,25) / 20 = 100 / 20 = <strong>5 meter</strong>.'
                     },
                     {
                         title: '2. Hukum Newton & Dinamika Gerak (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Hukum I (ΣF = 0), Hukum II (ΣF = m·a), Hukum III (F_aksi = -F_reaksi).',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Hukum I Newton menjelaskan kelembaman (ΣF = 0), Hukum II Newton menjelaskan hubungan gaya dan percepatan (ΣF = m·a), serta Hukum III Newton menjelaskan aksi-reaksi (F_aksi = -F_reaksi).',
                         visual: 'Gaya Gesek: f_g = μ · N  |  Komponen Bidang Miring: F_sejajar = m·g sin θ',
-                        tips: 'Uraikan seluruh gaya sejajar dan tegak lurus bidang gerak.',
-                        contohSoal: 'Balok 4 kg berada pada bidang miring licin 30° (g = 10 m/s²). Berapakah percepatannya?<br><strong>Jawab:</strong> a = g sin 30° = 10 × 0,5 = <strong>5 m/s²</strong>.'
+                        tips: 'Selalu uraikan seluruh komponen gaya sejajar dan tegak lurus bidang gerak terlebih dahulu sebelum menyusun persamaan percepatan.',
+                        contohSoal: 'Balok 4 kg berada pada bidang miring licin bersudut 30° (g = 10 m/s²). Berapakah percepatan balok menyusuri bidang?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gaya penggerak searah bidang miring adalah F = m·g sin 30°.<br>2. Menurut Hukum II Newton: a = F / m = (m·g sin 30°) / m = g sin 30°.<br>3. Hitung: a = 10 × 0,5 = <strong>5 m/s²</strong>.'
                     },
                     {
                         title: '3. Gelombang Bunyi & Efek Doppler (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Perubahan frekuensi bunyi akibat gerak relatif antara sumber dan pendengar.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Efek Doppler adalah perubahan frekuensi bunyi yang terdeteksi oleh pendengar akibat adanya gerak relatif antara sumber bunyi dan pendengar.',
                         visual: 'f_p = [(v ± v_p) / (v ± v_s)] · f_s',
-                        tips: '<strong>Tanda Doppler:</strong> Pendengar mendekat (+), Sumber mendekat (-).',
-                        contohSoal: 'Ambulans (f_s = 640 Hz) bergerak v_s = 20 m/s mendekati pendengar diam (v_p = 0, v = 340 m/s). Berapa f_p?<br><strong>Jawab:</strong> f_p = [340 / (340 - 20)] × 640 = <strong>680 Hz</strong>.'
+                        tips: '<strong>Aturan Tanda Efek Doppler:</strong> Pendengar mendekat (+), pendengar menjauh (-), sumber mendekat (-), sumber menjauh (+). (Ingat: mendekat membuat frekuensi lebih tinggi!).',
+                        contohSoal: 'Ambulans (f_s = 640 Hz) melaju v_s = 20 m/s mendekati pengamat diam (v_p = 0, v = 340 m/s). Hitung frekuensi yang didengar pengamat.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Karena sumber mendekat, gunakan v - v_s di penyebut.<br>2. Hitung: f_p = [340 / (340 - 20)] × 640 = (340 / 320) × 640 = 340 × 2 = <strong>680 Hz</strong>.'
                     },
                     {
                         title: '4. Listrik Dinamis & Hukum Kirchhoff (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Hukum Kirchhoff I (Arus Masuk = Arus Keluar). Hukum Kirchhoff II (ΣE + Σ(I·R) = 0 pada loop tertutup).',
-                        visual: 'Seri: R_total = R₁ + R₂  |  Paralel: 1/R_total = 1/R₁ + 1/R₂',
-                        tips: 'Jika hasil arus I bernilai negatif, arah arus sebenarnya berlawanan dengan pemisalan loop.',
-                        contohSoal: 'R₁ = 3 Ω dan R₂ = 6 Ω dirangkai paralel disambung baterai 12 V. Berapa arus total?<br><strong>Jawab:</strong> R_p = (3×6)/(3+6) = 2 Ω. Arus I = V / R_p = 12 / 2 = <strong>6 Ampere</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Hukum Kirchhoff I menyatakan bahwa jumlah arus masuk cabang sama dengan arus keluar. Hukum Kirchhoff II menyatakan bahwa dalam satu loop tertutup, jumlah ggl baterai dan penurunan tegangan bernilai nol (ΣE + Σ(I·R) = 0).',
+                        visual: 'Seri: R_total = R₁ + R₂  |  Paralel: 1/R_total = 1/R₁ + 1/R₂  |  P = V · I',
+                        tips: 'Jika dari perhitungan Hukum Kirchhoff diperoleh nilai arus I bernilai negatif, artinya arah pemisalan arus sebenarnya berlawanan arah.',
+                        contohSoal: 'Hambatan R₁ = 3 Ω dan R₂ = 6 Ω dirangkai paralel lalu dihubungkan ke sumber tegangan 12 V. Hitunglah arus total rangkaian.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Hambatan pengganti paralel: 1/R_p = 1/3 + 1/6 = 3/6 ⇒ R_p = 2 Ω.<br>2. Arus total menurut Hukum Ohm: I = V / R_p = 12 / 2 = <strong>6 Ampere</strong>.'
                     }
                 ],
                 'kim': [
                     {
                         title: '1. Stoikiometri & Konsep Mol (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Mol adalah satuan jumlah zat. 1 mol = 6,02 × 10²³ partikel. Hubungan massa, volume STP, dan molaritas.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Mol adalah satuan jumlah zat kimia. 1 mol zat mengandung 6,02 × 10²³ partikel (Avisogadro). Hubungan dasar: n = massa / Mr, dan pada STP (0°C, 1 atm), V = n × 22,4 Liter.',
                         visual: 'n = m / Mr  |  V_STP = n × 22,4 L  |  Molaritas M = n / V(L)',
-                        tips: 'Bagi mol zat dengan koefisien reaksinya. Nilai terkecil adalah Pereaksi Pembatas.',
-                        contohSoal: 'Hitung volume 0,25 mol gas O₂ pada keadaan STP.<br><strong>Jawab:</strong> V = 0,25 × 22,4 = <strong>5,6 Liter</strong>.'
+                        tips: 'Untuk menentukan Pereaksi Pembatas, bagilah jumlah mol masing-masing zat pereaksi dengan koefisien reaksinya. Nilai terkecil adalah pereaksi yang habis terlebih dahulu.',
+                        contohSoal: 'Hitunglah volume dari 0,25 mol gas O₂ pada kondisi standar (STP).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan rumus V_STP = mol × 22,4 Liter.<br>2. Hitung: V = 0,25 × 22,4 = <strong>5,6 Liter</strong>.'
                     },
                     {
                         title: '2. Termokimia & Hukum Hess (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Reaksi Eksoterm (ΔH < 0) vs Endoterm (ΔH > 0). Hukum Hess menyatakan ΔH tidak bergantung pada tahapan reaksi.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Termokimia mempelajari perubahan kalor dalam reaksi kimia. Reaksi eksoterm melepaskan kalor (ΔH < 0), sedangkan endoterm menyerap kalor (ΔH > 0). Hukum Hess menyatakan bahwa perubahan entalpi reaksi hanya bergantung pada keadaan awal dan akhir.',
                         visual: 'ΔH_reaksi = Σ ΔH°f(produk) - Σ ΔH°f(pereaksi)',
-                        tips: 'Jika reaksi dibalik, tanda ΔH dibalik. Jika reaksi dikali n, nilai ΔH dikali n.',
-                        contohSoal: 'Kalor pembentukan ΔH°f CO₂ = -393,5 kJ/mol. Pembakaran 12 gram C (Ar = 12) melepas kalor berapa?<br><strong>Jawab:</strong> n = 12/12 = 1 mol. Kalor = <strong>393,5 kJ</strong>.'
+                        tips: 'Jika suatu persamaan reaksi dibalik, tanda nilai ΔH harus dibalik (+ jadi -). Jika reaksi dikalikan n, nilai ΔH juga dikalikan n.',
+                        contohSoal: 'Kalor pembentukan standar ΔH°f CO₂ = -393,5 kJ/mol. Berapa kalor yang dilepaskan pada pembakaran sempurna 12 gram Karbon (Ar C = 12)?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Hitung mol C = massa / Ar = 12 / 12 = 1 mol.<br>2. Karena ΔH°f CO₂ melambangkan pembakaran 1 mol C, kalor yang dilepas = <strong>393,5 kJ</strong>.'
                     },
                     {
-                        title: '3. Kesetimbangan Kimia & Asas Le Chatelier (Kelas 11 / Fase F)',
+                        title: '3. Larutan Asam-Basa, Buffer & Titrasi (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Reaksi bolak-balik mencapai kesetimbangan saat laju reaksi maju = laju reaksi balik. Pergeseran dipengaruhi konsentrasi, suhu, tekanan, dan volume.',
-                        visual: 'K_c = [Produk]ⁿ / [Pereaksi]ᵐ  |  Hanya wujud Gas (g) dan Larutan (aq)',
-                        tips: 'Jika suhu dinaikkan, kesetimbangan bergeser ke arah reaksi Endoterm (ΔH positif).',
-                        contohSoal: 'Reaksi N₂ + 3H₂ ⇌ 2NH₃ (ΔH = -92 kJ). Agar NH₃ makin banyak, suhu harus?<br><strong>Jawab:</strong> Diturunkan (karena reaksi pembentukan NH₃ eksoterm).'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> pH merepresentasikan derajat keasaman pH = -log[H⁺]. Larutan Penyangga (Buffer) mampu mempertahankan pH ketika ditambah sedikit asam/basa. Buffer Asam terdiri dari Asam Lemah dan Basa Konjugasinya.',
+                        visual: 'Buffer Asam: [H⁺] = K_a × (mol Asam Lemah / mol Basa Konjugasi)  |  pH = -log[H⁺]',
+                        tips: 'Jika asam lemah bereaksi dengan basa kuat dan menyisakan asam lemah, maka terbentuk sistem Larutan Penyangga (Buffer).',
+                        contohSoal: 'Hitung pH larutan buffer yang mengandung 0,1 mol CH₃COOH (Ka = 10⁻⁵) dan 0,01 mol CH₃COONa.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Gunakan rumus [H⁺] = Ka × (mol asam / mol garam) = 10⁻⁵ × (0,1 / 0,01) = 10⁻⁵ × 10 = 10⁻⁴ M.<br>2. Hitung pH = -log(10⁻⁴) = <strong>4</strong>.'
                     },
                     {
                         title: '4. Reaksi Redoks & Sel Volta (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Redoks adalah reaksi serah terima elektron. Sel Volta mengubah energi kimia menjadi listrik secara spontan (E°sel > 0).',
-                        visual: 'KRAO: Katoda Reduksi (Kutub +) | Anoda Oksidasi (Kutub -)  |  E°sel = E°katoda - E°anoda',
-                        tips: '<strong>Jembatan Keledai:</strong> KRAO (Katoda Reduksi, Anoda Oksidasi). Logam yang E° lebih positif berada di Katoda.',
-                        contohSoal: 'Diketahui E° Zn²⁺/Zn = -0,76 V dan E° Cu²⁺/Cu = +0,34 V. Hitung E°sel.<br><strong>Jawab:</strong> E°sel = +0,34 - (-0,76) = <strong>+1,10 Volt</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Reaksi redoks melibatkan transfer elektron. Sel Volta mengubah energi kimia menjadi energi listrik secara spontan. Katode merupakan tempat terjadinya reduksi (kutub +), sedangkan Anode tempat oksidasi (kutub -).',
+                        visual: 'KRAO: Katode Reduksi (+) | Anode Oksidasi (-)  |  E°sel = E°katode - E°anode',
+                        tips: '<strong>Singkatan Hafalan:</strong> KRAO (Katoda Reduksi, Anoda Oksidasi). Logam dengan potensial reduksi E° lebih positif selalu bertindak sebagai Katoda.',
+                        contohSoal: 'Diketahui E° Zn²⁺/Zn = -0,76 V dan E° Cu²⁺/Cu = +0,34 V. Hitunglah potensial standar sel (E°sel) yang terbentuk.<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Logam Cu memiliki E° lebih positif (+0,34 V) sehingga menjadi Katode.<br>2. Hitung: E°sel = E°katode - E°anode = +0,34 - (-0,76) = <strong>+1,10 Volt</strong>.'
                     }
                 ],
                 'bio': [
                     {
                         title: '1. Biologi Sel & Transpor Membran (Kelas 11 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Membran sel bersifat semipermeabel. Transpor Pasif (Difusi, Osmosis) tanpa ATP; Transpor Aktif butuh ATP.',
-                        visual: 'Osmosis: Pelarut (air) bergerak dari hipotonis (encer) ke hipertonis (pekat)',
-                        tips: 'Sel darah merah di larutan hipertonis akan mengalami Krenasi (pengerutan sel).',
-                        contohSoal: 'Mengapa sel tumbuhan di larutan hipotonis tidak pecah?<br><strong>Jawab:</strong> Karena sel tumbuhan memiliki Dinding Sel yang kuat (mengalami Turgid).'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Membran sel bersifat selektif permeabel. Transpor pasif (difusi dan osmosis) terjadi mengikuti gradien konsentrasi tanpa energi ATP, sedangkan transpor aktif (pompa Na⁺-K⁺) membutuhkan energi ATP.',
+                        visual: 'Osmosis: Pelarut (air) berpindah dari hipotonis (encer) menuju hipertonis (pekat)',
+                        tips: 'Sel darah merah (eritrosit) yang dimasukkan ke dalam larutan hipertonis akan kehilangan air dan mengalami pengerutan sel (Krenasi).',
+                        contohSoal: 'Mengapa sel tumbuhan tidak pecah (lisis) saat berada di lingkungan hipotonis?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Air masuk ke dalam sel tumbuhan hingga mencapai tekanan turgor maksimal, tetapi sel tidak pecah karena dilindungi oleh <strong>Dinding Sel</strong> yang kaku dan kuat.'
                     },
                     {
                         title: '2. Metabolisme: Katabolisme & Anabolisme (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Katabolisme memecah senyawa kompleks (Respirasi Aerob 36-38 ATP). Anabolisme menyusun senyawa (Fotosintesis).',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Katabolisme memecah molekul kompleks menjadi sederhana dan menghasilkan ATP (Respirasi Aerob: Glikolisis, Dekarboksilasi Oksidatif, Siklus Krebs, Transpor Elektron). Anabolisme menyusun molekul kompleks (Fotosintesis).',
                         visual: 'Fotosintesis: Reaksi Terang (Tilakoid → ATP, NADPH, O₂) + Reaksi Gelap (Stroma → Glukosa)',
-                        tips: 'Penerima elektron terakhir pada respirasi aerob adalah Oksigen (O₂), membentuk H₂O.',
-                        contohSoal: 'Di manakah tempat berlangsungnya Siklus Calvin (Reaksi Gelap Fotosintesis)?<br><strong>Jawab:</strong> Di dalam <strong>Stroma</strong> kloroplas.'
+                        tips: 'Penerima (akseptor) elektron terakhir pada tahap Transpor Elektron respirasi aerob adalah molekul Oksigen (O₂), yang kemudian membentuk H₂O.',
+                        contohSoal: 'Di manakah tempat terjadinya tahap Siklus Krebs dalam respirasi seluler aerob?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Siklus Krebs berlangsung di dalam <strong>Matriks Mitokondria</strong> dan menghasilkan 2 ATP, 6 NADH, 2 FADH₂, dan 4 CO₂.'
                     },
                     {
-                        title: '3. Genetika & Persilangan Hukum Mendel (Kelas 12 / Fase F)',
+                        title: '3. Genetika & Hukum Persilangan Mendel (Kelas 12 / Fase F)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'DNA membawa kode genetik. Monohibrid dominan penuh F2 = 3 : 1; Dihibrid = 9 : 3 : 3 : 1.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> DNA menyimpan informasi genetik dalam bentuk susunan basa nitrogen (Adenin-Timin, Guanin-Sitosin). Hukum I Mendel menyatakan pemisahan gen secara bebas saat pembentukan gamet.',
                         visual: 'Pasangan Basa DNA: Adenin - Timin (2 ikatan H)  |  Guanin - Sitosin (3 ikatan H)',
-                        tips: 'Makin banyak ikatan G-C, pita DNA makin stabil karena 3 ikatan hidrogen.',
-                        contohSoal: 'Dihibrid AaBb disilangkan sesamanya. Berapa peluang keturunan homozigot resesif (aabb)?<br><strong>Jawab:</strong> (1/4) × (1/4) = <strong>1/16</strong>.'
+                        tips: 'Rasio fenotip persilangan monohibrid dominan penuh F2 adalah 3 : 1, sedangkan rasio fenotip persilangan dihibrid heterozigot (AaBb × AaBb) F2 adalah 9 : 3 : 3 : 1.',
+                        contohSoal: 'Tanaman dihibrid AaBb disilangkan dengan sesamanya. Berapa peluang mendapatkan keturunan bergenotip homozigot resesif (aabb)?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Peluang aa dari Aa × Aa adalah 1/4.<br>2. Peluang bb dari Bb × Bb adalah 1/4.<br>3. Peluang kombinasi aabb = (1/4) × (1/4) = <strong>1/16 (atau 6,25%)</strong>.'
                     }
                 ],
                 'eko': [
                     {
                         title: '1. Kelangkaan & Biaya Peluang / Opportunity Cost (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Biaya Peluang adalah nilai kesempatan terbaik yang dikorbankan karena memilih alternatif lain.',
-                        visual: 'Biaya Peluang = Nilai Alternatif Terbaik yang Tidak Dipilih',
-                        tips: 'Biaya peluang tidak dijumlahkan, melainkan diambil dari nilai SATU opsi tertinggi.',
-                        contohSoal: 'Budi memilih kuliah. Opsi kerja dilepas: Staf (4jt) atau Sales (4.5jt). Biaya peluang?<br><strong>Jawab:</strong> <strong>Rp 4.500.000</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Kelangkaan terjadi karena kebutuhan manusia tidak terbatas sedangkan sumber daya terbatas. Biaya Peluang adalah nilai barang/kesempatan terbaik yang dikorbankan karena memilih opsi alternatif lain.',
+                        visual: 'Biaya Peluang = Nilai Kesempatan Terbaik yang Tidak Dipilih (Tergantikan)',
+                        tips: 'Nilai Biaya Peluang diukur dari nilai opsi tertinggi yang DITINGGALKAN, bukan jumlah total seluruh alternatif.',
+                        contohSoal: 'Rina memiliki opsi kerja: Perusahaan A (gaji 5 jt), Perusahaan B (gaji 6 jt). Jika Rina memilih melanjutkan kuliah, berapakah biaya peluangnya?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Opsi tertinggi yang dikorbankan Rina adalah tawaran Perusahaan B. Maka biaya peluangnya adalah <strong>Rp 6.000.000</strong>.'
                     },
                     {
                         title: '2. Keseimbangan Pasar & Elastisitas (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Keseimbangan pasar terjadi saat Q_d = Q_s. Elastisitas mengukur kepekaan perubahan jumlah akibat perubahan harga.',
-                        visual: 'Q_d = Q_s  |  Elastis (E > 1), Inelastis (E < 1), Uniter (E = 1)',
-                        tips: 'Barang kebutuhan pokok (beras, obat) umumnya bersifat Inelastis (E < 1).',
-                        contohSoal: 'Q_d = 20 - 2P dan Q_s = -4 + 2P. Hitung harga keseimbangan P_e.<br><strong>Jawab:</strong> 20 - 2P = -4 + 2P ⇒ 4P = 24 ⇒ P_e = <strong>6</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Keseimbangan pasar tercapai ketika jumlah permintaan sama dengan jumlah penawaran (Qd = Qs). Elastisitas mengukur kepekaan perubahan jumlah barang akibat perubahan harga.',
+                        visual: 'Syarat Keseimbangan: Q_d = Q_s  |  E = (% ΔQ) / (% ΔP)',
+                        tips: 'Jika nilai elastisitas E > 1 disebut Elastis, E < 1 disebut Inelastis, dan E = 1 disebut Uniter.',
+                        contohSoal: 'Diketahui fungsi permintaan Q_d = 40 - 2P dan fungsi penawaran Q_s = -10 + 3P. Tentukan harga keseimbangan pasar (P_e).<br><strong>Langkah Penyelesaian Terperinci:</strong><br>1. Samakan Q_d = Q_s ⇒ 40 - 2P = -10 + 3P.<br>2. Kelompokkan variabel: 5P = 50 ⇒ P_e = <strong>10</strong>.'
                     }
                 ],
                 'sos': [
                     {
                         title: '1. Sosiologi Sebagai Ilmu & Ciri-Cirinya (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '4 Ciri Sosiologi: Empiris, Teoritis, Kumulatif, dan Non-Etis (objektif, tidak menilai baik/buruk moral).',
-                        visual: 'Non-Etis = Menganalisis fakta tanpa menghakimi secara etika',
-                        tips: 'Jika soal membahas peneliti mengkaji motif kejahatan tanpa menyalahkan pelaku, cirinya Non-Etis.',
-                        contohSoal: 'Peneliti mengkaji prostitusi secara ilmiah tanpa menghakimi para pelaku. Ciri sosiologinya?<br><strong>Jawab:</strong> Ciri <strong>Non-Etis</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Sosiologi adalah ilmu yang mempelajari masyarakat dan interaksi sosial. 4 Ciri Utama Sosiologi: Empiris (berdasarkan observasi fakta), Teoritis (menyusun abstraksi), Kumulatif (memperbaiki teori lama), dan Non-Etis (objektif).',
+                        visual: 'Non-Etis = Menganalisis fenomena tanpa menilai baik atau buruknya moral pelaku',
+                        tips: 'Jika dalam soal disebutkan peneliti mengungkap motif kejahatan tanpa menyalahkan atau menghakimi pelaku secara moral, ciri sosiologi yang dimaksud adalah Non-Etis.',
+                        contohSoal: 'Sosiolog mengkaji fenomena anak jalanan secara sistematis tanpa menghakimi latar belakang moral mereka. Ciri sosiologi apakah ini?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Fokus kajian adalah mengungkap fakta sosial secara objektif tanpa penilaian etis, sehingga mencerminkan ciri <strong>Non-Etis</strong>.'
                     }
                 ],
                 'geo': [
                     {
-                        title: '1. Konsep & Prinsip Geografi (Kelas 10 / Fase E)',
+                        title: '1. Konsep & Prinsip Utama Geografi (Kelas 10 / Fase E)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: '4 Prinsip Geografi: Distribusi, Interelasi (sebab-akibat), Deskripsi, dan Korologi.',
-                        visual: 'Prinsip Interelasi = Keterkaitan hubungan sebab-akibat fenomena geosfer',
-                        tips: 'Bencana tanah longsor akibat penggundulan hutan di lereng dianalisis dengan Prinsip Interelasi.',
-                        contohSoal: 'Banjir Jakarta akibat rusaknya kawasan resapan Bogor. Prinsip geografi?<br><strong>Jawab:</strong> <strong>Prinsip Interelasi</strong>.'
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Geografi mempelajari fenomena geosfer. 4 Prinsip Geografi: Persebaran (distribusi tak merata), Interelasi (keterkaitan sebab-akibat), Deskripsi (penjelasan tabel/peta), dan Korologi (komprehensif ruang).',
+                        visual: 'Prinsip Interelasi = Hubungan timbal balik / sebab-akibat antar fenomena geosfer',
+                        tips: 'Gunakan Prinsip Interelasi jika soal menghubungkan dua fenomena, misalnya penebangan hutan di hulunya sungai yang menyebabkan banjir bandang di pemukiman hilir.',
+                        contohSoal: 'Bencana tanah longsor di Puncak terjadi akibat pembukaan lahan hutan yang tak terkendali. Prinsip geografi yang digunakan?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Fenomena longsor dihubungkan langsung dengan sebab pembukaan lahan, sehingga dianalisis menggunakan <strong>Prinsip Interelasi</strong>.'
+                    }
+                ],
+                'sej': [
+                    {
+                        title: '1. Peristiwa Sekitar Proklamasi & Pembentukan Negara (Kelas 11 / Fase F)',
+                        kurikulum: 'K13 & Merdeka',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Kekalahan Jepang dalam Perang Pasifik memicu perdebatan antara Golongan Muda dan Golongan Tua yang berujung pada Peristiwa Rengasdengklok untuk mengamankan Soekarno-Hatta agar proklamasi dilakukan tanpa pengaruh Jepang.',
+                        visual: 'Rengasdengklok (16 Ags 1945) → Perumusan Teks (Rumah Tadashi Maeda) → Proklamasi (Pegangsaan Timur 56)',
+                        tips: 'Tujuan utama penjelasan Golongan Muda membawa Soekarno-Hatta ke Rengasdengklok adalah menjauhkan mereka dari tekanan dan pengaruh janji kemerdekaan Jepang.',
+                        contohSoal: 'Apakah alasan utama Golongan Muda membawa Soekarno dan Hatta ke Rengasdengklok pada 16 Agustus 1945?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Untuk mendesak agar proklamasi kemerdekaan segera dilaksanakan secara mandiri tanpa campur tangan dan janji dari pihak Panitia Persiapan Kemerdekaan Indonesia (PPKI) buatan Jepang.'
                     }
                 ],
                 'lit': [
                     {
                         title: '1. Penalaran Logis, Silogisme & Modus Tollens (UTBK)',
                         kurikulum: 'K13 & Merdeka',
-                        summary: 'Penalaran deduktif mengambil kesimpulan khusus dari premis umum.',
+                        summary: '<strong>Penjelasan Konsep Terperinci:</strong> Penalaran deduktif menarik kesimpulan yang pasti sah dari premis-premis umum. Tiga aturan penarikan kesimpulan utama: Modus Ponens, Modus Tollens, dan Silogisme.',
                         visual: 'Modus Ponens: P→Q, P ⇒ Q  |  Modus Tollens: P→Q, ~Q ⇒ ~P  |  Silogisme: P→Q, Q→R ⇒ P→R',
-                        tips: 'Hati-hati jepakan logika: P → Q TIDAK BISA disimpulkan ~P → ~Q atau Q → P!',
-                        contohSoal: 'Premis 1: Jika belajar rajin, lulus UTBK. Premis 2: Budi tidak lulus UTBK. Kesimpulan?<br><strong>Jawab:</strong> Budi tidak belajar rajin (Modus Tollens).'
+                        tips: '<strong>Jebakan Logika UTBK:</strong> Dari premis P → Q, KITA TIDAK BISA menyimpulkan ~P → ~Q atau Q → P. Hati-hati dengan kekeliruan ini!',
+                        contohSoal: 'Premis 1: Jika siswa belajar konsisten, maka ia lulus UTBK. Premis 2: Andi tidak lulus UTBK. Apakah kesimpulan yang sah?<br><strong>Langkah Penyelesaian Terperinci:</strong><br>Gunakan Modus Tollens (P → Q, ~Q ⇒ ~P). P = Belajar konsisten, Q = Lulus UTBK. Karena ~Q (tidak lulus), maka kesimpulannya adalah <strong>Andi tidak belajar secara konsisten (~P)</strong>.'
                     }
                 ]
             },
@@ -789,20 +806,20 @@
                     <div class="relative z-10 max-w-3xl">
                         <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 text-xs font-semibold mb-6">
                             <i data-lucide="sparkles" class="w-4 h-4 text-purple-400"></i>
-                            <span>Nihiluxxy AI Pro 2026 • Penjelasan Konsep Intuitif & Akurat</span>
+                            <span>Nihiluxxy AI Pro 2026 • Master Expanded Edition</span>
                         </div>
                         <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4 leading-tight">
                             Kuasai Seluruh Konsep SMA & Taklukkan <span class="bg-clip-text text-transparent gradient-accent">UTBK SNBT 2026</span>.
                         </h1>
                         <p class="text-slate-300 text-xs sm:text-sm mb-8 leading-relaxed">
-                            Modul SMA (Kelas 10–12) komprehensif, rumus visual, tips instan, kalkulator matematika otomatis, serta pengerjaan soal HOTS terperinci dibantu oleh **Nihiluxxy AI Tutor v6.0**.
+                            Modul SMA (Kelas 10–12) komprehensif seluruh mata pelajaran, rumus visual, tips instan, kalkulator sains otomatis, serta pengerjaan soal HOTS terperinci dibantu oleh **Nihiluxxy AI Tutor v6.0**.
                         </p>
                         <div class="flex flex-wrap gap-4">
                             <button onclick="switchView('materi')" class="gradient-accent text-white font-extrabold px-6 py-3.5 rounded-2xl shadow-lg shadow-purple-500/25 hover:opacity-95 transition flex items-center gap-2 text-xs sm:text-sm">
                                 <i data-lucide="book-open" class="w-4 h-4"></i> Pelajari Modul Terperinci
                             </button>
                             <button onclick="switchView('kalkulator')" class="bg-slate-900/90 border border-cyan-500/40 text-cyan-200 font-extrabold px-6 py-3.5 rounded-2xl hover:bg-slate-800 transition flex items-center gap-2 text-xs sm:text-sm">
-                                <i data-lucide="calculator" class="w-4 h-4 text-cyan-400"></i> Kalkulator AI Math
+                                <i data-lucide="calculator" class="w-4 h-4 text-cyan-400"></i> Kalkulator AI Math & Sains
                             </button>
                         </div>
                     </div>
@@ -811,8 +828,8 @@
                 <!-- Stats Cards -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
                     <div class="glass-card p-5 rounded-2xl text-center border-purple-500/20">
-                        <span class="text-2xl font-black text-purple-400 font-mono">14+</span>
-                        <span class="text-xs text-slate-400 block mt-1 font-semibold">Modul Matematika Lanjut</span>
+                        <span class="text-2xl font-black text-purple-400 font-mono">50+</span>
+                        <span class="text-xs text-slate-400 block mt-1 font-semibold">Modul Seluruh Mapel</span>
                     </div>
                     <div class="glass-card p-5 rounded-2xl text-center border-purple-500/20">
                         <span class="text-2xl font-black text-emerald-400 font-mono">100%</span>
@@ -841,7 +858,7 @@
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
                         ${db.mapel.map(m => `
                             <div class="glass-card border border-slate-800 hover:border-purple-500/60 p-5 rounded-2xl transition duration-300 hover:-translate-y-1 group cursor-pointer shadow-lg relative overflow-hidden" onclick="openDetailMapel('${m.id}')">
                                 <div class="w-12 h-12 rounded-2xl bg-gradient-to-br ${m.color} flex items-center justify-center text-white mb-4 shadow-lg group-hover:scale-110 transition duration-300">
@@ -1010,15 +1027,15 @@
             }
         }
 
-        // Render Kalkulator Matematika Screen
+        // Render Kalkulator Sains & Matematika Screen
         function renderKalkulatorScreen() {
             return `
                 <div class="mb-8">
                     <h1 class="text-3xl font-black text-white tracking-tight">Kalkulator AI Matematika & Sains</h1>
-                    <p class="text-slate-400 text-xs sm:text-sm mt-1">Hitung otomatis persamaan kuadrat, invers/determinan matriks, kombinatorika, hingga deret tak hingga.</p>
+                    <p class="text-slate-400 text-xs sm:text-sm mt-1">Hitung otomatis persamaan kuadrat, invers/determinan matriks, kombinatorika, deret tak hingga, pH kimia, dan kinematics.</p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     
                     <!-- 1. Kalkulator Persamaan Kuadrat -->
                     <div class="glass-card border border-purple-500/30 p-6 rounded-3xl shadow-xl">
@@ -1026,18 +1043,18 @@
                             <div class="p-2.5 rounded-xl bg-purple-500/20 text-purple-300">
                                 <i data-lucide="function-square" class="w-5 h-5"></i>
                             </div>
-                            <h3 class="font-extrabold text-white text-base">Persamaan Kuadrat (ax² + bx + c = 0)</h3>
+                            <h3 class="font-extrabold text-white text-sm">Persamaan Kuadrat (ax² + bx + c = 0)</h3>
                         </div>
-                        <div class="grid grid-cols-3 gap-3 mb-4">
-                            <input type="number" id="calc-a" placeholder="a" value="1" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="calc-b" placeholder="b" value="-5" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="calc-c" placeholder="c" value="6" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
+                        <div class="grid grid-cols-3 gap-2 mb-4">
+                            <input type="number" id="calc-a" placeholder="a" value="1" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="calc-b" placeholder="b" value="-5" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="calc-c" placeholder="c" value="6" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
                         </div>
-                        <button onclick="calculateQuad()" class="w-full py-2.5 bg-purple-600 hover:bg-purple-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
-                            Hitung Akar-Akar & Vieta
+                        <button onclick="calculateQuad()" class="w-full py-2 bg-purple-600 hover:bg-purple-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                            Hitung Akar & Vieta
                         </button>
-                        <div id="calc-quad-res" class="bg-slate-950/80 border border-slate-800 p-4 rounded-xl text-xs font-mono text-purple-300">
-                            Hasil perhitungan akan muncul di sini...
+                        <div id="calc-quad-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-purple-300">
+                            Hasil akan muncul di sini...
                         </div>
                     </div>
 
@@ -1047,19 +1064,19 @@
                             <div class="p-2.5 rounded-xl bg-cyan-500/20 text-cyan-300">
                                 <i data-lucide="grid" class="w-5 h-5"></i>
                             </div>
-                            <h3 class="font-extrabold text-white text-base">Determinan & Invers Matriks 2x2</h3>
+                            <h3 class="font-extrabold text-white text-sm">Determinan & Invers Matriks</h3>
                         </div>
-                        <div class="grid grid-cols-2 gap-3 mb-4 max-w-xs mx-auto">
-                            <input type="number" id="mat-a" placeholder="a" value="3" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="mat-b" placeholder="b" value="2" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="mat-c" placeholder="c" value="1" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="mat-d" placeholder="d" value="4" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
+                        <div class="grid grid-cols-2 gap-2 mb-4 max-w-xs mx-auto">
+                            <input type="number" id="mat-a" placeholder="a" value="3" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="mat-b" placeholder="b" value="2" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="mat-c" placeholder="c" value="1" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="mat-d" placeholder="d" value="4" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
                         </div>
-                        <button onclick="calculateMatrix()" class="w-full py-2.5 bg-cyan-600 hover:bg-cyan-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
-                            Hitung Determinan & Invers
+                        <button onclick="calculateMatrix()" class="w-full py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                            Hitung Invers & Det
                         </button>
-                        <div id="calc-mat-res" class="bg-slate-950/80 border border-slate-800 p-4 rounded-xl text-xs font-mono text-cyan-300">
-                            Hasil matriks akan muncul di sini...
+                        <div id="calc-mat-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-cyan-300">
+                            Hasil matriks muncul di sini...
                         </div>
                     </div>
 
@@ -1069,17 +1086,17 @@
                             <div class="p-2.5 rounded-xl bg-emerald-500/20 text-emerald-300">
                                 <i data-lucide="dices" class="w-5 h-5"></i>
                             </div>
-                            <h3 class="font-extrabold text-white text-base">Permutasi P(n,r) & Kombinasi C(n,r)</h3>
+                            <h3 class="font-extrabold text-white text-sm">Permutasi P(n,r) & Kombinasi C(n,r)</h3>
                         </div>
-                        <div class="grid grid-cols-2 gap-3 mb-4">
-                            <input type="number" id="comb-n" placeholder="Total Unsur (n)" value="6" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="number" id="comb-r" placeholder="Dipilih (r)" value="3" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <input type="number" id="comb-n" placeholder="n (total)" value="6" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="comb-r" placeholder="r (dipilih)" value="3" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
                         </div>
-                        <button onclick="calculateComb()" class="w-full py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
-                            Hitung P(n,r) & C(n,r)
+                        <button onclick="calculateComb()" class="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                            Hitung Peluang & Cara
                         </button>
-                        <div id="calc-comb-res" class="bg-slate-950/80 border border-slate-800 p-4 rounded-xl text-xs font-mono text-emerald-300">
-                            Hasil kombinatorika akan muncul di sini...
+                        <div id="calc-comb-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-emerald-300">
+                            Hasil kombinasi muncul di sini...
                         </div>
                     </div>
 
@@ -1089,17 +1106,57 @@
                             <div class="p-2.5 rounded-xl bg-amber-500/20 text-amber-300">
                                 <i data-lucide="infinity" class="w-5 h-5"></i>
                             </div>
-                            <h3 class="font-extrabold text-white text-base">Deret Geometri Tak Hingga (S_∞)</h3>
+                            <h3 class="font-extrabold text-white text-sm">Deret Geometri Tak Hingga (S_∞)</h3>
                         </div>
-                        <div class="grid grid-cols-2 gap-3 mb-4">
-                            <input type="number" id="geo-a" placeholder="Suku Awal (a)" value="12" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
-                            <input type="text" id="geo-r" placeholder="Rasio (r misal: 0.5 atau 1/3)" value="0.333" class="bg-slate-950 border border-slate-700 rounded-xl p-2.5 text-center text-xs font-mono text-white">
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <input type="number" id="geo-a" placeholder="a (suku awal)" value="12" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="text" id="geo-r" placeholder="r (rasio < 1)" value="0.333" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
                         </div>
-                        <button onclick="calculateGeoInfin()" class="w-full py-2.5 bg-amber-600 hover:bg-amber-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                        <button onclick="calculateGeoInfin()" class="w-full py-2 bg-amber-600 hover:bg-amber-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
                             Hitung Jumlah Tak Hingga
                         </button>
-                        <div id="calc-geo-res" class="bg-slate-950/80 border border-slate-800 p-4 rounded-xl text-xs font-mono text-amber-300">
-                            Hasil deret akan muncul di sini...
+                        <div id="calc-geo-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-amber-300">
+                            Hasil deret muncul di sini...
+                        </div>
+                    </div>
+
+                    <!-- 5. Kalkulator Kimia: pH Larutan Asam / Basa -->
+                    <div class="glass-card border border-pink-500/30 p-6 rounded-3xl shadow-xl">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2.5 rounded-xl bg-pink-500/20 text-pink-300">
+                                <i data-lucide="flask-conical" class="w-5 h-5"></i>
+                            </div>
+                            <h3 class="font-extrabold text-white text-sm">Hitung pH Asam Kuat (pH = -log[H⁺])</h3>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <input type="number" step="0.001" id="chem-m" placeholder="Molaritas (M)" value="0.01" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="chem-val" placeholder="Valensi Asam" value="1" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                        </div>
+                        <button onclick="calculatePH()" class="w-full py-2 bg-pink-600 hover:bg-pink-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                            Hitung Konsentrasi & pH
+                        </button>
+                        <div id="calc-ph-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-pink-300">
+                            Hasil pH muncul di sini...
+                        </div>
+                    </div>
+
+                    <!-- 6. Kalkulator Fisika: Tinggi Maksimum Gerak Parabola -->
+                    <div class="glass-card border border-blue-500/30 p-6 rounded-3xl shadow-xl">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="p-2.5 rounded-xl bg-blue-500/20 text-blue-300">
+                                <i data-lucide="zap" class="w-5 h-5"></i>
+                            </div>
+                            <h3 class="font-extrabold text-white text-sm">Tinggi Maksimum Gerak Parabola</h3>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2 mb-4">
+                            <input type="number" id="phys-v0" placeholder="v₀ (m/s)" value="20" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                            <input type="number" id="phys-angle" placeholder="Sudut θ (°)" value="30" class="bg-slate-950 border border-slate-700 rounded-xl p-2 text-center text-xs font-mono text-white">
+                        </div>
+                        <button onclick="calculateParabola()" class="w-full py-2 bg-blue-600 hover:bg-blue-500 text-white font-extrabold text-xs rounded-xl transition mb-4 shadow-md">
+                            Hitung H_max & X_max
+                        </button>
+                        <div id="calc-phys-res" class="bg-slate-950/80 border border-slate-800 p-3 rounded-xl text-xs font-mono text-blue-300">
+                            Hasil ketinggian muncul di sini...
                         </div>
                     </div>
 
@@ -1107,7 +1164,7 @@
             `;
         }
 
-        // Kalkulator Math Logic Functions
+        // Calculation Logic
         function calculateQuad() {
             const a = parseFloat(document.getElementById('calc-a').value);
             const b = parseFloat(document.getElementById('calc-b').value);
@@ -1123,9 +1180,7 @@
             const x_sum = -b / a;
             const x_prod = c / a;
 
-            let text = `Diskriminan (D) = ${D}<br>`;
-            text += `Vieta: x₁ + x₂ = ${x_sum}  |  x₁ · x₂ = ${x_prod}<br>`;
-
+            let text = `D = ${D} | x₁+x₂ = ${x_sum} | x₁·x₂ = ${x_prod}<br>`;
             if (D > 0) {
                 const x1 = (-b + Math.sqrt(D)) / (2 * a);
                 const x2 = (-b - Math.sqrt(D)) / (2 * a);
@@ -1147,13 +1202,12 @@
             const res = document.getElementById('calc-mat-res');
 
             const det = a * d - b * c;
-            let text = `Determinan det(A) = ${det}<br>`;
+            let text = `det(A) = ${det}<br>`;
 
             if (det === 0) {
-                text += `Matriks Singular (Tidak memiliki invers).`;
+                text += `Matriks Singular (Tidak berpangkat/invers).`;
             } else {
-                text += `Invers Matriks A⁻¹:<br>`;
-                text += `[[ ${(d/det).toFixed(2)}, ${(-b/det).toFixed(2)} ], [ ${(-c/det).toFixed(2)}, ${(a/det).toFixed(2)} ]]`;
+                text += `A⁻¹ = [[ ${(d/det).toFixed(2)}, ${(-b/det).toFixed(2)} ], [ ${(-c/det).toFixed(2)}, ${(a/det).toFixed(2)} ]]`;
             }
             res.innerHTML = text;
         }
@@ -1179,7 +1233,7 @@
             const P = factorial(n) / factorial(n - r);
             const C = P / factorial(r);
 
-            res.innerHTML = `Permutasi P(${n},${r}) = ${P}<br>Kombinasi C(${n},${r}) = ${C}`;
+            res.innerHTML = `P(${n},${r}) = ${P} cara<br>C(${n},${r}) = ${C} cara`;
         }
 
         function calculateGeoInfin() {
@@ -1195,12 +1249,48 @@
             const res = document.getElementById('calc-geo-res');
 
             if (Math.abs(r) >= 1) {
-                res.innerHTML = "Deret Divergen (|r| ≥ 1), tidak memiliki jumlah tak hingga konvergen.";
+                res.innerHTML = "Deret Divergen (|r| ≥ 1).";
                 return;
             }
 
             const S_inf = a / (1 - r);
-            res.innerHTML = `Rasio (r) = ${r.toFixed(3)}<br>Jumlah Tak Hingga S_∞ = ${S_inf.toFixed(2)}`;
+            res.innerHTML = `r = ${r.toFixed(3)}<br>Jumlah S_∞ = ${S_inf.toFixed(2)}`;
+        }
+
+        function calculatePH() {
+            const m = parseFloat(document.getElementById('chem-m').value);
+            const val = parseFloat(document.getElementById('chem-val').value);
+            const res = document.getElementById('calc-ph-res');
+
+            if (isNaN(m) || isNaN(val) || m <= 0) {
+                res.innerHTML = "Masukkan molaritas positif!";
+                return;
+            }
+
+            const h_plus = m * val;
+            const ph = -Math.log10(h_plus);
+            res.innerHTML = `[H⁺] = ${h_plus.toExponential(2)} M<br><strong>pH Larutan = ${ph.toFixed(2)}</strong>`;
+        }
+
+        function calculateParabola() {
+            const v0 = parseFloat(document.getElementById('phys-v0').value);
+            const angleDeg = parseFloat(document.getElementById('phys-angle').value);
+            const res = document.getElementById('calc-phys-res');
+
+            if (isNaN(v0) || isNaN(angleDeg)) {
+                res.innerHTML = "Masukkan nilai valid!";
+                return;
+            }
+
+            const g = 10;
+            const rad = (angleDeg * Math.PI) / 180;
+            const sinVal = Math.sin(rad);
+            const sin2Val = Math.sin(2 * rad);
+
+            const H_max = (v0 * v0 * sinVal * sinVal) / (2 * g);
+            const X_max = (v0 * v0 * sin2Val) / g;
+
+            res.innerHTML = `H_max = ${H_max.toFixed(2)} meter<br>Jarak Terjauh X_max = ${X_max.toFixed(2)} meter`;
         }
 
         // Render UTBK Simulation Screen
@@ -1421,6 +1511,8 @@
                         <button onclick="setFlashcardFilter('fisika')" class="px-3.5 py-1.5 rounded-xl transition ${state.flashcardFilter === 'fisika' ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-white'}">Fisika</button>
                         <button onclick="setFlashcardFilter('kimia')" class="px-3.5 py-1.5 rounded-xl transition ${state.flashcardFilter === 'kimia' ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-white'}">Kimia</button>
                         <button onclick="setFlashcardFilter('biologi')" class="px-3.5 py-1.5 rounded-xl transition ${state.flashcardFilter === 'biologi' ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-white'}">Biologi</button>
+                        <button onclick="setFlashcardFilter('ekonomi')" class="px-3.5 py-1.5 rounded-xl transition ${state.flashcardFilter === 'ekonomi' ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-white'}">Ekonomi</button>
+                        <button onclick="setFlashcardFilter('sosiologi')" class="px-3.5 py-1.5 rounded-xl transition ${state.flashcardFilter === 'sosiologi' ? 'bg-purple-600 text-white' : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-white'}">Sosiologi</button>
                     </div>
                 </div>
 
@@ -1744,37 +1836,25 @@
                     </div>
                 `;
             }
-            // INTEGRAL & KALKULUS
-            else if (q.includes('integral') || q.includes('luas daerah')) {
+            // PH & KIMIA
+            else if (q.includes('ph') || q.includes('larutan') || q.includes('buffer')) {
                 return `
                     <div class="space-y-3">
-                        <span class="text-pink-400 font-extrabold block text-xs">📐 Nihiluxxy AI Step Solver - Integral & Luas:</span>
-                        <p><strong>Aturan Dasar Integral:</strong> ∫ xⁿ dx = [1 / (n + 1)] · xⁿ⁺¹ + C</p>
-                        <p><strong>Rumus Cepat Luas Antara Parabola & Garis:</strong></p>
-                        <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 text-xs font-mono text-purple-300 text-center">
-                            Luas L = (D √D) / (6 a²)
-                        </div>
-                        <p class="text-xs text-slate-300">Gunakan rumus D√D / 6a² jika soal meminta luas yang dibatasi parabola ax² + bx + c = 0 tanpa perlu menghitung integral panjang!</p>
+                        <span class="text-emerald-400 font-extrabold block text-xs">🧪 Nihiluxxy AI - Larutan Asam Basa & Buffer:</span>
+                        <p><strong>1. Asam Kuat:</strong> [H⁺] = Molaritas × Valensi Asam ⇒ pH = -log[H⁺]</p>
+                        <p><strong>2. Buffer Asam:</strong> [H⁺] = K_a × (mol Asam Lemah / mol Basa Konjugasi)</p>
+                        <p><strong>3. Hidrolisis Garam (Asam Lemah + Basa Kuat):</strong> [OH⁻] = √( (K_w / K_a) × M_garam )</p>
                     </div>
                 `;
             }
-            // POLINOMIAL & HORNER
-            else if (q.includes('polinomial') || q.includes('suku banyak') || q.includes('horner')) {
+            // FISIKA & HUKUM NEWTON
+            else if (q.includes('fisika') || q.includes('newton') || q.includes('parabola') || q.includes('kirchhoff')) {
                 return `
                     <div class="space-y-3">
-                        <span class="text-amber-400 font-extrabold block text-xs">🔢 Nihiluxxy AI - Polinomial & Teorema Sisa:</span>
-                        <p><strong>Teorema Sisa:</strong> Jika P(x) dibagi (x - k), maka sisa pembaginya adalah S = P(k).</p>
-                        <p><strong>Teorema Faktor:</strong> (x - k) merupakan faktor dari P(x) jika P(k) = 0 (tidak ada sisa).</p>
-                    </div>
-                `;
-            }
-            // COMBINATORICS
-            else if (q.includes('permutasi') || q.includes('kombinasi') || q.includes('peluang')) {
-                return `
-                    <div class="space-y-3">
-                        <span class="text-emerald-400 font-extrabold block text-xs">🎲 Trik Membedakan Permutasi vs Kombinasi:</span>
-                        <p><strong>1. Permutasi P(n,r) = n! / (n-r)!:</strong> MEMPERHATIKAN URUTAN. Contoh: susunan ketua/sekretaris, juara 1/2/3, kode PIN.</p>
-                        <p><strong>2. Kombinasi C(n,r) = n! / [r! (n-r)!]:</strong> TIDAK MEMPERHATIKAN URUTAN. Contoh: memilih tim/kelompok, mengambil 3 kelereng sekaligus, jabat tangan.</p>
+                        <span class="text-amber-400 font-extrabold block text-xs">⚡ Nihiluxxy AI - Fisika & Dinamika:</span>
+                        <p><strong>1. Hukum II Newton:</strong> ΣF = m · a</p>
+                        <p><strong>2. Ketinggian Maksimum Parabola:</strong> H_max = (v₀² sin² θ) / (2g)</p>
+                        <p><strong>3. Hukum II Kirchhoff:</strong> ΣE + Σ(I·R) = 0 dalam loop tertutup.</p>
                     </div>
                 `;
             }
@@ -1784,7 +1864,7 @@
                     <div class="space-y-2">
                         <span class="text-purple-300 font-extrabold block text-xs">🤖 Analisis AI Nihiluxxy v6.0:</span>
                         <p>Terima kasih atas pertanyaanmu mengenai: <em>"${query}"</em>.</p>
-                        <p>Untuk membedah tipe soal ini dengan tepat, petakan variabel ke rumus utamanya dan eliminasi pilihan jawaban yang tidak logis. Kamu juga bisa menggunakan fitur <strong>Kalkulator AI Math</strong> di menu navigasi!</p>
+                        <p>Untuk membedah tipe soal ini dengan tepat, petakan variabel ke rumus utamanya dan eliminasi pilihan jawaban yang tidak logis. Kamu juga bisa menggunakan fitur <strong>Kalkulator AI Math & Sains</strong> di menu navigasi!</p>
                     </div>
                 `;
             }
